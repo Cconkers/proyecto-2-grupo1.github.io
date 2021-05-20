@@ -23,6 +23,7 @@ bottom: 96.03%;
     position: absolute;
     left: 42%;
     top: 4.27%;
+    width: 30em;
 }
 .lupa_email_perfil{
     display: flex;
