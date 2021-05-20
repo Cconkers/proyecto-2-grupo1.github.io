@@ -120,10 +120,14 @@ bottom: 96.03%;
     text-align: left;
     color: white;
     width: 46.875vw;
-    left: 33em;
-    top: 24em;
+    left: 31%;
+    top: 41%;
 }
-
+.organizacion{
+    position: relative;
+    left: 41%;
+    top: 49%;
+}
 .separador1-secc1-down{
     position: relative;
     top: -7em;
@@ -135,4 +139,3 @@ bottom: 96.03%;
     top: -7.9em;
     width: 100%;
 }
-
