@@ -8,7 +8,7 @@ body{
 
 header{
     background-color: #DC001B;
-    height: 9.46vh;
+    height: 12.681vh;
  
 }
 
@@ -27,14 +27,14 @@ bottom: 96.03%;
 .lupa_email_perfil{
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     width: 17.82vw;
-    left: 89em;
+    left: 77em;
     top: 1.5em;
 }
 .seccion1{
-    background-image:url(/assets/images/foto_fondo_evento.png);
-    height:  56em;
+    background-image:url(/assets/images/Foto-FONDO.png);
+    height:  43em;
     background-repeat:no-repeat;
     background-size: 100%;
 }
@@ -43,31 +43,31 @@ bottom: 96.03%;
     width: 100%;
     height: 92%;
     background: radial-gradient(89.11% 175.16% at 11.42% 10.89%, rgba(62, 83, 100, 0.61) 0%, rgba(212, 50, 56, 0.61) 100%);
-    z-index: 0;
 }
 .seccion1 h1{
     position: absolute;
-    left: 25.2em;
+    left: 46%;
     top: 9em;
     font-family: Montserrat;
     font-weight: bold;
     font-size: 34px;
     line-height: 41px;
     color: rgba(255, 255, 255, 0.9);
+    width: fit-content;
 }
 
 #countdown{
-    width: 16vw;
-    position: absolute;
-    left: 0.15em;
-    top: 1em;
+    position: relative;
+    left: 19.7em;
+    top: 9em;
     color: white;
     font-family: Montserrat;
-    font-style: normal;
     font-weight: bold;
     font-size: 34px;
     line-height: 41px;
+    width: 17vw;
     letter-spacing: 0.099em;
+    font-style: normal;
 }
 .grid_countdown{
     display: flex;
@@ -75,7 +75,7 @@ bottom: 96.03%;
     width: 15vw;
     position: absolute;
     top: 23em;
-    left: 50em;
+    left: 42%;
 }
 
 .letras_countdown{
@@ -91,16 +91,11 @@ bottom: 96.03%;
     top: 24em;
     width: 9.6vw;
     height: 6.7vh;
-    left: 80.4%;
+    left: 80.3%;
 }
 
 .evento-siguiente:hover{
     background-color: white;
-    position: relative;
-    top: 24em;
-    width: 9.6vw;
-    height: 7.491vh;
-    left: 80.4%;
 }
 
 .evento-anterior{
@@ -112,10 +107,6 @@ bottom: 96.03%;
 
 .evento-anterior:hover{
     background-color: white;
-    position: relative;
-    top: 24em;
-    width: 9.6vw;
-    height: 6.7vh;
 }
 
 .detalles_evento{
@@ -130,18 +121,18 @@ bottom: 96.03%;
     color: white;
     width: 46.875vw;
     left: 33em;
-    top: 29em;
+    top: 24em;
 }
 
 .separador1-secc1-down{
     position: relative;
-    top: -11em;
+    top: -7em;
     width: 100%;
 }
 
 .separador2-secc1-down{
     position: relative;
-    top: -11.9em;
+    top: -7.9em;
     width: 100%;
 }
 
