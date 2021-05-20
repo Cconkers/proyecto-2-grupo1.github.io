@@ -88,7 +88,7 @@ bottom: 96.03%;
 }
 .evento-siguiente{
     position: relative;
-    top: 24em;
+    top: 38%;
     width: 9.6vw;
     height: 6.7vh;
     left: 80.3%;
@@ -100,7 +100,7 @@ bottom: 96.03%;
 
 .evento-anterior{
     position: relative;
-    top: 24em;
+    top: 38%;
     width: 9.6vw;
     height: 7.491vh;
 }
