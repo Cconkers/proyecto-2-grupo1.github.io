@@ -138,7 +138,7 @@ color: #000000;
 }
 
 .img_logo_org{
-    background-image: url(/assets/images/logo_ministerio_derechos_sociales.png);
+    background-image: url(assets/images/logo_ministerio_derechos_sociales.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 83%;
