@@ -5,12 +5,12 @@
 body{
     background-color: #F0F0F0;
     font-family: montserrat;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 24px;
     height: 500em;
+    width: 100%;
 }
 
 header{
@@ -124,38 +124,36 @@ color: #000000;
 .mask_org{
     background-color: white;
     border-radius: 30px 30px 30px 100px;
-    width: 23.5%;
-    height: 1.99%;
+    width: 23.671875vw;
+   height: 22.597652vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     left: 66%;
-    position: sticky;
-    top: 27%;
+    position: fixed;
+    top: 30%;
     box-shadow: 0px 0px 4px #000000;
     z-index: 1;
+overflow: hidden;
 }
 
 .img_logo_org{
-    background-image: url(assets/images/logo_ministerio_derechos_sociales.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 83%;
     height: 30%;
     position: relative;
     left: 10%;
     bottom: 6%;
     border-radius: 40px 40px 40px 40px;
-
+    object-fit: cover;
 }
 
 .p1{
     font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 29px;
+font-size: 1em;
+line-height: 1.5em;
 color: #000000;
 margin-left: 13%;
 margin-bottom: 1px;
@@ -173,28 +171,23 @@ margin-left: 13%;
 margin-bottom: 1px;
 }
 .bkgnd_carpet{
-    position: absolute;
-    left: 55%;
-    top: 55%;
     background: #D1D1D1;
     box-shadow: 0px 0px 7px #000000;
     transform: rotate(-7.22deg);
-    width: 200%;
-    height: 84%;
-
+    width: 19.895833333333332vw;
+    height: 26.040554962646745vh;
 }
 .carpt_details{
     position: absolute;
-    width: 195%;
-    height: 82%;
-    left: 67%;
-    top: 57%;
+    bottom: 0%;
     background: #FFFFFF;
     box-shadow: 0px 0px 7px #000000;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  
+    width: 19.895833333333332vw;
+    height: 26.040554962646745vh;
+    overflow: hidden;
 }
 .icons{
     display: flex;
@@ -212,49 +205,56 @@ margin-bottom: 1px;
 }
 
 .container_event_location{
-    width: 10em;
-    height: 16em;
-    position: sticky;
-    top: 38%;
-    left: 62%;
+    width: fit-content;
+    height: auto;
+    position: fixed;
+    top: 59%;
+    left: 68%;
     z-index: 1;
 }
 .mask_foto_event{
     position: absolute;
-    width: 776px;
-    height: 351px;
-    left: 93px;
-    top: 260px;
-border-radius: 30px 0 30px 0;
-background-image: url(assets/images/Foto-Evento.png);
-
+    left: 6%;
+    top: 30%;
+    border-radius: 30px 0 30px 0;
+    object-fit: cover;
+    box-shadow: 0px 0px 4px #000000;
+    height: 43%;
+    width: 35%;
 }
 
 
+
+
     .event_details_text   {
-    position: absolute;
-    width: 557px;
-    height: 161.12px;
-    left: 213px;
-    top: 651px;
-    box-shadow: 0px 0px 7px 0px;
-    align-items: center;
-    border-radius: 27px;
-    display: flex;
+        position: absolute;
+        width: 29.01vw;
+        height: 17.195vh;
+        left: 8%;
+        top: 77%;
+        box-shadow: 0px 0px 7px 0px;
+        align-items: center;
+        border-radius: 27px;
+        display: flex;
+        background-color: white;
+        overflow: auto;
 }
 .event_details_text p{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 0.65em;
+    line-height: 1.5em;
     color: #000000;
     align-items: center;
-    margin-left: 4em;
-    width: 80%;
+    margin-left: 2em;
+    width: 90%;
     position: relative;
-    top: 0.5em;
-
+    overflow: auto;
+    text-align: justify;
+    align-self: center;
+    margin: 1.5em;
+    height: -webkit-fill-available;
 }
 
 .corte_flexiarriba{
@@ -270,3 +270,18 @@ background-image: url(assets/images/Foto-Evento.png);
     height: 20%;
     top: 108%;
     }
+
+    /* Para 480px */  
+@media only screen and (max-width: 480px){
+
+    body {
+        width: max-content;
+    }
+
+
+
+
+
+
+
+}
