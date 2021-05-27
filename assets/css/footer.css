@@ -8,47 +8,52 @@
 .separador{
 margin-left: 7%;
 width: 85%;
-
 }
 .mapaweb{
-
+margin-left: 4.5%;
+display: flex;
+flex-direction: column;
+}
+.fundacion{
+	color: white;
 }
 .enlacesde{
     color: white;
+	width: 12%;
 }
 .fregistro{
-	width: 150px;
 	color: white;
+	width: 10%;
 }
 .pcontacto{
-	width: 150px;
 	color: white;
+	width: 9%;
 }
 .cevento{
-	width: 150px;
 	color: white;
+	width: 6%;
 }
 .vperfil{
-	width: 150px;
 	color: white;
+	width: 6%;
 }
 .csesion{
-	width: 150px;
 	color: white;
-}
-.mapaweb2{
-
-    color: white;
 }
 .acercade{
     color: white;
+	width: 58%;
 }
 .spam{
 	color: #A8B0B7;
 	line-height: 4px;
+	width: 14%;
 }
 .rrss{
 	color: white;
+}
+.siguenos{
+	width:6% ;
 }
 .fotosrrss{
 	display: flex;
@@ -58,39 +63,42 @@ width: 85%;
 	color: white;
 	margin-left: 15px;
 	text-align: center;
+	vertical-align: middle;
 
 }
 .twitter{
 	color: white;
 	margin-left: 5px;
+	vertical-align: middle;
 }
 .instagram{
 	color: white;
 	margin-left: 11px;
+	vertical-align: middle;
 }
 .linkedin{
 	color: white;
 	margin-left: 10px;
+	vertical-align: middle;
 }
 .grupo1{
 	margin-bottom: 25px;
+	width: 7%;
+	
 }
 .grupo2{
 	margin-bottom: 25px;
 	margin-top: 25px;
+	width: 6%;
 }
 .grupo3{
 	margin-bottom: 25px;
 	margin-top: 25px;
+	width: 8%;
 }
 .grupo4{
 	margin-top: 25px;
-}
-.copy{
-	color: white;
-}
-.legal{
-	color: white;
+	width: 7%;
 }
 .centro{
 	width: 292px;
@@ -106,4 +114,10 @@ width: 85%;
 .simplon{
 	margin-top: 4%;
 	margin-right: 4%;
+}
+.legal{
+text-align: right;
+}
+.copy2{
+	color: white;
 }
