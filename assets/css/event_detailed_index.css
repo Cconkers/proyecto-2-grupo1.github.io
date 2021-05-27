@@ -40,26 +40,28 @@ bottom: 96.03%;
     border-radius: 0px 5px 5px 0px;
     background: #DADCDE;
     color: #494949;
-    width: 25%;
-    height: 70%;
+    width: 8vw;
+    height: 5vh;
     position: relative;
-    right: -80%;
-    top: -70%;
+    right: 1%;
     outline: none;
+    overflow: hidden;
 }
 .search{
-    width: 67%;
+    width: fit-content;
     position: relative;
     right: 20%;
+    height: fit-content;
+    display: flex;
 }
 .searchstyle{
-    width: 82%;
+    width: 30vw;
     border-radius: 5px;
     border: none;
     text-indent: 3em;
     color: #494949;
     outline: none;
-    height: 70%;
+    height: 5vh;
 }
 .login_signup{
     position: relative;
@@ -68,6 +70,8 @@ bottom: 96.03%;
 
 .login_signup a{
     color: white;
+    font-weight: 600;
+    font-size: calc(0.5em + 0.5vw);
 }
 
 .grid_countdown{
@@ -124,18 +128,18 @@ color: #000000;
 .mask_org{
     background-color: white;
     border-radius: 30px 30px 30px 100px;
-    width: 23.671875vw;
-   height: 22.597652vh;
+    width: 24.01vw;
+    height: 26.195vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     left: 66%;
     position: fixed;
-    top: 30%;
+    top: 33%;
     box-shadow: 0px 0px 4px #000000;
     z-index: 1;
-overflow: hidden;
+    overflow: hidden;
 }
 
 .img_logo_org{
@@ -201,26 +205,26 @@ margin-bottom: 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 1em;
+    overflow: auto;
 }
 
 .container_event_location{
     width: fit-content;
     height: auto;
     position: fixed;
-    top: 59%;
+    top: 68%;
     left: 68%;
-    z-index: 1;
+    z-index: 1; 
 }
 .mask_foto_event{
     position: absolute;
     left: 6%;
-    top: 30%;
+    top: 33%;
     border-radius: 30px 0 30px 0;
     object-fit: cover;
     box-shadow: 0px 0px 4px #000000;
-    height: 43%;
-    width: 35%;
+    height: 45vh;
+    width: 42vw;
 }
 
 
@@ -228,16 +232,17 @@ margin-bottom: 1px;
 
     .event_details_text   {
         position: absolute;
-        width: 29.01vw;
-        height: 17.195vh;
+        width: 37.01vw;
+        height: 21.195vh;
         left: 8%;
-        top: 77%;
+        top: 81%;
         box-shadow: 0px 0px 7px 0px;
         align-items: center;
         border-radius: 27px;
         display: flex;
         background-color: white;
         overflow: auto;
+
 }
 .event_details_text p{
     font-family: Montserrat;
@@ -256,19 +261,25 @@ margin-bottom: 1px;
     margin: 1.5em;
     height: -webkit-fill-available;
 }
+.text p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 95%;
+    font-size: 90%;
+}
 
 .corte_flexiarriba{
     position: absolute;
     width: 100%;
-    height: 20%;
-    top: 90%;
+    height: 20vh;
+    top: 97%;
 }
 
 .corte_flexiabajo{
     position: absolute;
     width: 100%;
-    height: 20%;
-    top: 108%;
+    height: 20vh;
+    top: 115%;
     }
 
     /* Para 480px */  
