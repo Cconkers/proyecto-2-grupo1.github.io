@@ -18,7 +18,9 @@ header{
     height: 9.46vh;
  
 }
-
+.arrow_back{
+    display: none;
+}
 .logo_donbosco{
     position: relative;
     left: 4em;
@@ -494,6 +496,7 @@ display: none;
     position: relative;
     left: 5%;
     top: 0%;
+    display: inline;
 }
 .card {
     position: sticky;
