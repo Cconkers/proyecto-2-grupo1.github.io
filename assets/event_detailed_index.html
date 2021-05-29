@@ -15,9 +15,21 @@
 
 <body>
     <header>
+        <div class="mobile_button_menu">
+            <a href="#">
+                <img src="/assets/images/button_mobile_menu.png" alt="Botón menu mobile">
+            </a>
+        </div>
         <a href="www.https://fundaciondonbosco.es/">
             <img class="logo_donbosco" src="images/logotipo_fund_donbosco.png" alt="logo_don_bosco">
         </a>
+        <div class="search_mobile">
+            <input class="searchstyle" placeholder="Buscar..." type="search" id="site-search" name="q"
+                aria-label="Search through site content">
+            <a href="">
+                <img src="/assets/images/zoom_in_24px.png" alt="lupa">
+            </a>
+        </div>
         <div class="header_stuff">
             <div class="search">
                 <input class="searchstyle" placeholder="Escribe aquí..." type="search" id="site-search" name="q"
@@ -49,32 +61,26 @@
             <p class="p1">Premios Andalucía Joven</p>
             <p class="p2">Grupo Público</p>
         </div>
-
-        <div class="container_event_location">
-            <div class="bkgnd_carpet"></div>
-
-            <div class="carpt_details">
-                <div class="icons">
-                    <img style="margin: 0.7em;
-                    position: relative;
-                    top: 11%;
-                    width: 2vw;" src="images/reloj_icon.png" alt="reloj_icono">
-                    <img style="position: relative;
-                    top: 5%;
-                    width: 2.5vw;
-                    margin: 0.5em;" src="images/maps_icon.png" alt="maps_icono">
-                </div>
-                <div class="text">
-                    <p style="margin-bottom: 0.5em;">Viernes, 28 de Mayo de 2021</p>
-                    <a href="">Añadir al calendario</a>
-                    <a style="margin-top: 1em;" href="">Dirección Provincial de Sevilla del Instituto Andaluz de la
-                        Juventud</a>
-                    <p>Avenida de Hytasa, 14 Plta. Baja, Ala Izq, 41006 Sevilla</p>
-                </div>
-            </div>
+        <div class="card">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <img src="images/reloj_icon.png" alt="reloj_icono">
+                    <div class="text_card">
+                        <p style="margin-bottom: 0.5em;">Viernes, 28 de Mayo de 2021</p>
+                        <a href="">Añadir al calendario</a>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <img src="images/maps_icon.png" alt="maps_icono">
+                    <div class="text_card">
+                        <a style="margin-top: 1em;" href="">Dirección Provincial de Sevilla del Instituto Andaluz de la
+                            Juventud</a>
+                        <p>Avenida de Hytasa, 14 Plta. Baja, Ala Izq, 41006 Sevilla</p>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <img src="images/bosco--644x362.jpg" class="mask_foto_event"
-            alt="logo_ministerio_derechos_sociales."></img>
+        <img src="images/bosco--644x362.jpg" class="mask_foto_event" alt="logo_ministerio_derechos_sociales."></img>
         <div class="event_details_text">
             <p>Se convocan los Premios Andalucía Joven 2021, con la finalidad de distinguir y otorgar reconocimiento
                 público a la labor desarrollada por personas jóvenes, colectivos, entidades o instituciones compuestas
