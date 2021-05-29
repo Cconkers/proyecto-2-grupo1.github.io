@@ -1,0 +1,15 @@
+.todo{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background: #DC001B;
+    width: 100%;
+    height: 57px;
+}
+
+.perfil{
+    color: #3C3C3C, 100 %;
+    width: 12%;
+}
