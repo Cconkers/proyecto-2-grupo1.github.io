@@ -4,7 +4,7 @@ h1{
     margin: 4% 0% 4% 0%;
 }
 
-.contenedor1{
+.contenedor1, .contenedor1-2, .contenedor1-3{
     border: 0.3px solid #000000;
     box-sizing: border-box;
     border-radius: 5px;
@@ -13,12 +13,12 @@ h1{
     padding: 5% 5% 0% 5%;
 }
 
-.contenedor2{
+.contenedor2, .contenedor2-2, .contenedor2-3{
     display:flex;
     padding: 0% 0% 5% 0%;
 }
 
-.contenedor2 img{
+.contenedor2 img, .contenedor2-2 img, .contenedor2-3 img{
     height: 10%;
     width: 10%;
 }
@@ -101,3 +101,34 @@ h1{
     transform: rotate(180deg);
     height: 100%;
 }
+
+@media only screen and (max-width: 481px) {
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 190%;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url(assets/images/botonFlecha.png);
+        height: 30%;
+    }
+    
+    .carousel-control-next-icon {
+        background-image: url(assets/images/botonFlecha.png);
+        transform: rotate(180deg);
+        height: 30%;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 3%;
+        height: 70%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 5%;
+    }
+
+    .contenedor1-2, .contenedor1-3, .contenedor2-2, .contenedor2-3 {
+        display:none !important;
+    }
+  }
