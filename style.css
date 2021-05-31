@@ -93,9 +93,11 @@ h1{
 
 .carousel-control-prev-icon {
     background-image: url(assets/images/botonFlecha.png);
+    height: 100%;
 }
 
 .carousel-control-next-icon {
     background-image: url(assets/images/botonFlecha.png);
     transform: rotate(180deg);
+    height: 100%;
 }
