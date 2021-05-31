@@ -1,0 +1,103 @@
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 4% 0% 4% 0%;
+}
+
+.contenedor1{
+    border: 0.3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    height: 50%;
+    padding: 5% 5% 0% 5%;
+}
+
+.contenedor2{
+    display:flex;
+    padding: 0% 0% 5% 0%;
+}
+
+.contenedor2 img{
+    height: 10%;
+    width: 10%;
+}
+
+.carousel-inner{
+    width: 80%;
+}
+
+.mas{
+    margin: 1% 5% 0% 5%;
+}
+
+.unirse{
+    margin-left: 21%;
+    border: none;
+    background: #DC001B;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 0% 4% 0% 4%;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 200%;
+    column-gap: 5%;
+}
+
+.fecha{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #0398AF;
+}
+
+.otro{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15.2147px;
+    line-height: 19px;
+}
+
+.descripcion{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #494949;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 3%;
+    height: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(assets/images/botonFlecha.png);
+    height: 100%;
+}
+
+.carousel-control-next-icon {
+    background-image: url(assets/images/botonFlecha.png);
+    transform: rotate(180deg);
+    height: 100%;
+}
