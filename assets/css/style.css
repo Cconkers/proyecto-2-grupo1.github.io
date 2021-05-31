@@ -1,22 +1,21 @@
 .body{
     margin: 0%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
-
+.arriba{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .header{
     background: #DC001B;
-    width: 100%;
-    height: 57px;
 }
 .boton{
-    display: flex;
-    justify-content: right;
+    text-align: right;
 }
-.logo{
-    display: flex;
-    justify-content: center;
+.img{
+    text-align: center;
 }
-
 .volver{
     font-weight: normal;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -26,8 +25,14 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.profile{
+    width: 15%;
+}
 
 .perfil{
-    color: #3C3C3C, 100 %;
-    width: 13%;
+   width: 19%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
