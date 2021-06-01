@@ -76,25 +76,7 @@
     flex-direction: row-reverse;
     margin-right: 30%;
 }
-.correo{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    margin-right: 30%;
-}
-.ubicacion{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    margin-right: 30%;
-}
-.text, select, .date {
-    height: 1.5vw;
-    width: 11vw;
-    margin-left: 1%;
-    margin-top: 1%;
-}
-.fecha{
+.localidad{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -106,15 +88,32 @@
     flex-direction: row-reverse;
     margin-right: 30%;
 }
+.correo{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 30%;
+}
+.fecha{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-right: 30%;
+}
 .genero{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     margin-right: 30%;
 }
-
-
-.editar{
+.text, select, .date {
+    height: 1.5vw;
+    width: 11vw;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-size: 2vh;
+}
+.confirmar{
     background: #E62E3A;
     border-radius: 7px;
     border: none;
@@ -131,5 +130,6 @@
 .textarea{
     margin: 0px;
     width: 84.5%;
-    height: 10vh;
+    height: 15vh;
+    font-size: 1.5vw;
 }

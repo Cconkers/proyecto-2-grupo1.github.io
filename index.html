@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Perfil</title>
+    <title>Edicion Perfil</title>
 </head>
 
 <body class="body">
@@ -26,21 +26,29 @@
 
     <article class="grid">
         <div class="nombrey">
-         <input class="text" type="text">  <p>Nombre y Apellidos:</p>
+         <input class="text" type="text" required name="nombre">  <p>Nombre y Apellidos:</p>
         </div>
         <div class="correo">
-           <input class="text" type="email"> <p>Correo Electrónico:</p>
+           <input class="text" type="email" pattern="@"> <p>Correo Electrónico:</p>
         </div>
-        <div class="ubicacion">
-            <input class="text" type="text"> <p>Ubicación:</p>
+        <div class="localidad">
+             <select required name="provincia" class="text">
+                 <option value="">Elige Provincia</option>
+                 <option value="Cádiz">Cádiz</option>
+                 <option value="Granada">Granada</option>
+                 <option value="Jaén">Jaén</option>
+                 <option value="Málaga">Málaga</option>
+                 <option value="Sevilla">Sevilla</option>
+                 <option value="Canarias">Canarias</option>
+              </select> <p>Localidad:</p>
         </div>
         <div class="fecha">
-          <input class="date" type="date">   <p>Fecha de Nacimiento:</p>
+          <input class="date" type="date"><p>Fecha de Nacimiento:</p>
         </div>
         <div class="idioma">
             <input class="text" type="text"> <p>Idioma:</p>
         </div>
-        <div class="genero"> <select class="text"
+        <div class="genero"> <select class="text">
                 <option>Otro </option>
                 <option>Mujer</option>
                 <option>Hombre</option>
@@ -52,10 +60,10 @@
 
     <div class="abajo">
         <h1 class="biografia">Biografía</h4>
-            <textarea name="bio" rows="8" cols="50" id="bio" class="hasMaxLen maxChars250  maxLenAdded">Escriba su biografía aquí...</textarea>
+            <textarea name="bio" rows="8" cols="50" id="bio" class="textarea" placeholder="Escriba su biografía aquí..."></textarea>
     </div>
     <div class="diveditar">
-        <button type="button" class="editar">Confirmar</button>
+        <button type="submit" class="confirmar">Confirmar</button>
     </div>
 
 </body>
