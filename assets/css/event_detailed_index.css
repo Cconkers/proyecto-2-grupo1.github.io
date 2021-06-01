@@ -13,14 +13,16 @@ body{
     width: 100%;
 }
 
+body p, a{
+    font-size: calc(.7em + 0.5vw);
+}
 header{
     background-color: #DC001B;
     height: 9.46vh;
 }
-.container{
-
+.logo_details{
+    margin-right: 6rem!important;
 }
-
 .arrow_back{
     display: none;
 }
@@ -141,8 +143,7 @@ header{
 }
 
 .mask_org{
-    background-color: white;
-    border-radius: 5px 5px 5px 20px;
+    border-radius: 30px 30px 30px 130px;
     display: flex;
     top: 16%;
     flex-direction: column;
@@ -150,19 +151,21 @@ header{
     z-index: 1;
     overflow: hidden;
     padding: 2em;
+    transform: skewX(354deg);
+    background-color: white;
 }
-
 
 .img_logo_org{
     border-radius: 40px 40px 40px 40px;
     object-fit: cover;
+    transform: skewX(6deg);
 }
 
 .p1{
-    font-family: Montserrat;
+font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 1.2vw;
+font-size: calc(.5em + 1vw);
 line-height: 1.5em;
 color: #000000;
 margin-left: 13%;
@@ -174,7 +177,7 @@ margin-bottom: 0.0625rem;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 1.2vw;
+font-size: calc(.5em + 1vw);
 line-height: 22px;
 color: #536273;
 margin-left: 13%;
@@ -184,7 +187,8 @@ margin-bottom: 0.0625rem;
     border-radius: 10px 0 10px 0;
     object-fit: cover;
     box-shadow: 0px 0px 4px #000000;
-    max-height: 20%;
+    width: 83%;
+    height: 30%;
 }
 
 .list-group-item{
@@ -197,7 +201,9 @@ margin-bottom: 0.0625rem;
     height: 2vw;
     margin-right: 1em;
 }
-
+.list-group{
+    max-height: 19rem;
+}
 
 
 .event_details_text   {
@@ -208,13 +214,14 @@ margin-bottom: 0.0625rem;
     background-color: white;
     overflow: auto;
     z-index: 1;
-    max-height: 10%;
+    max-height: 15%;
+    max-width: 80%;
 }
 .event_details_text p{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.95em;
+    font-size: calc(.5em + .7vw);
     line-height: 1.5em;
     color: #000000;
     align-items: center;
@@ -228,7 +235,7 @@ margin-bottom: 0.0625rem;
         z-index: 1;
         border-radius: 5px 5px 5px 5px;
         overflow: auto;
-        top: 54%;
+        top: 46%;
     }
 
 
@@ -382,6 +389,7 @@ margin-bottom: 0.0625rem;
     header {
         background-color: #DC001B;
         height: fit-content;
+        height: 2.5%;
     }
     .img_logo_org {
         width: 121%;
@@ -392,6 +400,7 @@ margin-bottom: 0.0625rem;
         left: 0;
         object-position: left;
         left: -0.5em;
+        transform: skewX(6deg);
     }
     .mobile_button_menu{
         display: inline;
@@ -503,6 +512,7 @@ display: none;
     left: 0%;
     top: 1%;
 }
+
 .p1 {
     font-family: Montserrat;
     font-style: normal;
@@ -514,18 +524,16 @@ display: none;
     margin-bottom: 0.0625rem;
 }
 .mask_org {
-    background-color: white;
-    border-radius: 5px 5px 5px 20px;
-    width: 90%;
+    border-radius: 30px 30px 30px 130px;
+    display: flex;
+    top: 16%;
     flex-direction: column;
-    left: 5%;
-    position: absolute;
-    top: 143%;
     box-shadow: 0px 0px 4px #000000;
     z-index: 1;
     overflow: hidden;
     padding: 2em;
-    max-height: 12em;
+    transform: skewX(354deg);
+    background-color: white;
 }
 .text_card p{
     font-size: 80%;
