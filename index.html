@@ -19,23 +19,43 @@
         <img class="profile" src="assets/images/profile9.png">
         <div class="stats">
             <h4>Joaquin Musk</h4>
-            <p class="ubicacion">Ubicación: Sevilla</p>
-            <p>Edad: 24</p>
-            <p>Idioma: Español</p>
-            <p>Género: Hombre</p>
-            <p class="correo">Correo Electrónico: Joaquin@gmail.com</p>
+            <p class="t1">Cambiar foto de perfil</p>
+            <input type="file">
         </div>
     </div>
+
+    <article class="grid">
+        <div class="nombrey">
+         <input class="text" type="text">  <p>Nombre y Apellidos:</p>
+        </div>
+        <div class="correo">
+           <input class="text" type="email"> <p>Correo Electrónico:</p>
+        </div>
+        <div class="ubicacion">
+            <input class="text" type="text"> <p>Ubicación:</p>
+        </div>
+        <div class="fecha">
+          <input class="date" type="date">   <p>Fecha de Nacimiento:</p>
+        </div>
+        <div class="idioma">
+            <input class="text" type="text"> <p>Idioma:</p>
+        </div>
+        <div class="genero"> <select class="text"
+                <option>Otro </option>
+                <option>Mujer</option>
+                <option>Hombre</option>
+            </select>
+               
+            <p>Género:</p> 
+        </div>
+    </article>
+
     <div class="abajo">
         <h1 class="biografia">Biografía</h4>
-        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Donec a odio non arcu lobortis venenatis sit amet quis odio. 
-            Integer id pellentesque sem. Cras fringilla, massa ac sagittis 
-            imperdiet, mauris metus mollis ex, nec tempus turpis risus eu ante. 
-            Pellentesque habitant morbi tristique senectus et netus et malesuada 
-            fames ac.</p>
+            <textarea name="bio" rows="8" cols="50" id="bio" class="hasMaxLen maxChars250  maxLenAdded">Escriba su biografía aquí...</textarea>
     </div>
     <div class="diveditar">
-    <button type="button" class="editar">Editar</button>
-</div>
+        <button type="button" class="editar">Confirmar</button>
+    </div>
+
 </body>
