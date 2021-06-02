@@ -142,3 +142,7 @@
 .div2{
     width: 42%;
 }
+
+@media screen (max-width) {
+    
+}
