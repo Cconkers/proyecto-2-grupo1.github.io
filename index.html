@@ -62,6 +62,98 @@
     <img class="separador2-secc1-down" src="assets/images/DOWN_EFECTOFOOTER_SECC1.png" alt="efecto_footer_secc1">
 
     <script src="js/presentation_main.js"></script>
+    <link rel="stylesheet" href="assets/css/mini-event-calendar.min.css">
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<!-- Demo Styles -->
+	<style>
+		body { 
+			 font-family: 'Roboto' }
+		#wrapper{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			background-image: url(/assets/images/fondo\ calendario.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		[id^=calendar],
+		[id^=calendar] + h3
+
+		[id^=calendar] + h3{
+			text-align: center;
+		}
+	</style>
+<script type="text/javascript">
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+	<div id="wrapper" class="wrapper">
+		<div class="crearevent">
+			¿Quieres crear tu propio evento? 
+
+			<button>¡Adelante!</button>
+		</div>
+			<div id="calendar2"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/mini-event-calendar.js"></script>
+
+	<script>
+		var sameDaylastWeek = new Date().setDate(new Date().getDate() - 7);
+		var someDaynextMonth = new Date().setDate(new Date().getDate() + 31);
+
+		// All dates should be provided in timestamps
+	    	var sampleEvents = [
+			{
+			    title: "jQueryScript.Net",
+			    date: sameDaylastWeek, // Same day as today, last week
+			    link: "#"
+			},
+			{
+			    title: "Today Event",
+			    date: new Date().getTime(), // Today
+			    link: "#"
+			},
+			{
+			    title: "CSSScript.Com",
+			    date: someDaynextMonth, // Some day as today, next month
+			    link: "#"
+			}
+	    	];
+
+		$(document).ready(function(){
+			$("#calendar").MEC({
+				events: sampleEvents
+			});
+
+			// Make calendar start on monday
+			$("#calendar2").MEC({
+				from_monday: true,
+				events: sampleEvents
+			});
+		});
+	</script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 
 
