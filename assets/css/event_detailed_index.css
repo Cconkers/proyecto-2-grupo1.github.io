@@ -57,6 +57,23 @@ header{
     overflow: hidden;
     font-size: 1vw;
 }
+.red-btn{
+    background-color: #DC001B;
+    color: white;
+    border-radius: 5px;
+    padding: 0.3rem;
+    text-decoration: none;
+    margin-right: 2em;
+}
+.white-btn{
+    border: black 1px solid;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.3rem;
+    text-decoration: none;
+    margin-right: 2em;
+}
 .search{
     width: 34em;
     position: relative;
