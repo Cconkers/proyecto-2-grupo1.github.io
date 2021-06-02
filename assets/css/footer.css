@@ -24,23 +24,23 @@ flex-direction: column;
 }
 .fregistro{
 	color: white;
-	width: 54%;
+	width: 61%;
 }
 .pcontacto{
 	color: white;
-	width: 46%;
+	width: 53%;
 }
 .cevento{
 	color: white;
-	width: 30%;
+	width: 35%;
 }
 .vperfil{
 	color: white;
-	width: 22%;
+	width: 24%;
 }
 .csesion{
 	color: white;
-	width: 31%;
+	width: 36%;
 }
 .acercade{
     color: white;
@@ -107,10 +107,12 @@ flex-direction: column;
 }
 .legal{
 grid-column: 4;
+width: 109%;
+margin-left: -10%;
 }
 .copy{
 	color: white;
-	width: 68%;
+    width: 78%;
 	grid-column: 1;
 }
 .grid{
