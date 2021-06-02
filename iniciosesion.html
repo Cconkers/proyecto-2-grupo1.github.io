@@ -17,7 +17,7 @@
                     <button type="submit" class="volver">Volver a inicio</button></a>
             </div>
         </div>
-        <form>
+        <form id="form">
             <h1 class="iniciarsesion">Inicia Sesión</h1>
             <div class="mb-3 row">
                 <label class="correo">Correo Electrónico</label><br><br>
@@ -34,9 +34,15 @@
                 </div>
                 <a href=""> <p class="norecuerdas">¿No recuerdas tu contraseña?</p></a>
                 <br>
+                <div>
+                    <div id="mensaje"></div>
+                    <div style="display: none;" id="cargando">cargando...</div>
+                </div>
+                <br>
                 <button type="submit" class="iniciar">Iniciar Sesion</button>
                 <a href=""> <p class="aun">¿Aún no estás registrado? ¡Regístrate ahora!</p></a>
             </div>
+
         </form>
         <p class="privacidad">Al hacer click en “Inicia Sesión”, aceptas nuestros <a href=""> Términos de Uso </a> y recibir emails y novedades de Fundación Don
             bosco y reconoces que has leído nuestra <a href=""> Política de privacidad</a>.
@@ -45,5 +51,8 @@
             utilice cookies para ofrecerte la mejor experiencia como usuario.</p>
     </article>
 </body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/login.js"></script>
 
 </html>
