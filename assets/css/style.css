@@ -64,8 +64,7 @@
 }
 
 .grid{
-    display: grid;
-    grid-template-columns: repeat(2 , 50%);
+
     margin-left: 10%;
     font-size: 1.5vw;
 }
@@ -132,4 +131,14 @@
     width: 84.5%;
     height: 15vh;
     font-size: 1.5vw;
+}
+.formulario{
+    display: flex;
+    justify-content: space-around;
+}
+.div1{
+    width: 42%;
+}
+.div2{
+    width: 42%;
 }
