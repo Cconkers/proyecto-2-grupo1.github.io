@@ -263,9 +263,8 @@ margin-bottom: 0.0625rem;
         display: none;
     }
     .header_fijo_movil{
-    display: none;
-    background-color: white;
-    }
+    display: none!important;
+   }
 /* For 768px Medium devices (tablets) */
 @media  (max-width: 768px){
     .container{
@@ -306,14 +305,13 @@ margin-bottom: 0.0625rem;
         align-items: center;
         flex-direction: column;
         width: 95%;
-        position: relative;
-        top: 15%;
+        position: absolute;
+        top: 19%;
     }
 .search_mobile img{
     position: relative;
     bottom: 2.1em;
     width: 73%; 
-
 }
 .mask_foto_event {
     position: absolute;
@@ -329,16 +327,6 @@ margin-bottom: 0.0625rem;
     left: 42%;
 }
 
-.Botns_hdr_event button {
- margin-right: 4em;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    font-family: Montserrat;
-    font-style: inherit;
-    font-weight: 600;
-    overflow: hidden;
-}
 .Botns_hdr_event {
     display: flex;
     align-items: center;
@@ -370,8 +358,8 @@ margin-bottom: 0.0625rem;
   }
     .logo_donbosco {
         position: relative;
-        left: 7%;
-        top: 14%;
+        left: 19%;
+        top: 25%;
         width: 53vw;
     }
     .login_signup {
@@ -410,6 +398,12 @@ display: none;
 .header_fijo{
     display: none;
 }
+.header_fijo_movil{
+    display:-webkit-box!important;
+    background-color: white;
+    height: 1.5%;
+
+   }
 .p1 {
     font-family: Montserrat;
     font-style: normal;
@@ -469,8 +463,32 @@ display: none;
 header{
     display: none;
 }
+body p, a {
+    font-size: calc(.7em + 1.5vw);
+    font-family: 'Montserrat';
+}
 .mobile_header{
     display:block;
+}
+.Botns_hdr_event button {
+    margin: 1em;
+    margin-right: 3em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: calc(4em + 2vw);
+    height: 3rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20px; */
+    line-height: 24px;
+    color: #2E2E2E;
+    overflow: hidden;
+    font-size: calc(0.5em + 1.5vw);
+}
+.detalles_evnto_header_movil{
+    width: 44%;
 }
 }
 
