@@ -191,7 +191,7 @@ margin-bottom: 0.0625rem;
     object-fit: cover;
     box-shadow: 0px 0px 4px #000000;
     width: 83%;
-    height: 30%;
+    height: 15%;
 }
 
 .list-group-item{
@@ -205,7 +205,7 @@ margin-bottom: 0.0625rem;
     margin-right: 1em;
 }
 .list-group{
-    max-height: 19rem;
+    max-height: 12rem;
 }
 
 
