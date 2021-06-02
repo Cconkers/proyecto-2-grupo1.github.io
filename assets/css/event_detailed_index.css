@@ -148,7 +148,7 @@ header{
 .mask_org{
     border-radius: 30px 30px 30px 130px;
     display: flex;
-    top: 16%;
+    top: 21%;
     flex-direction: column;
     box-shadow: 0px 0px 4px #000000;
     z-index: 1;
@@ -238,7 +238,7 @@ margin-bottom: 0.0625rem;
         z-index: 1;
         border-radius: 5px 5px 5px 5px;
         overflow: auto;
-        top: 46%;
+        top: 62%;
     }
 
 
@@ -320,11 +320,13 @@ margin-bottom: 0.0625rem;
     object-fit: cover;
     box-shadow: 0px 0px 4px #000000;
     width: 90%;
-    top: 42%;
+    top: 51%;
 }
 .link_lupa{
     position: relative;
     left: 42%;
+    top: 0.25em;
+
 }
 
 .Botns_hdr_event {
@@ -380,7 +382,7 @@ display: none;
 .card {
     position: absolute;
     left: 5%;
-    top: 115%;
+    top: 57em;
     width: 90%;
     box-shadow: 0px 0px 5px 0px;
     z-index: 1;
@@ -416,28 +418,27 @@ display: none;
 }
 .mask_org {
     border-radius: 30px 30px 30px 130px;
-    display: flex;
-    top: 16%;
-    flex-direction: column;
+    top: 20%;
+    position: relative;
+    right: 11em;
     box-shadow: 0px 0px 4px #000000;
     z-index: 1;
     overflow: hidden;
     padding: 2em;
     transform: skewX(354deg);
     background-color: white;
+    width: 22rem;
 }
 .text_card p{
     font-size: 80%;
 }
-.text_card a{
-    font-size: 80%;
-}
+
 .event_details_text {
     position: absolute;
-    width: 90%;
-    height: fit-content;
-    top: 87%;
-    left: 5%;
+    width: 23rem;
+    height: 13rem;
+    top: 32em;
+    left: 10%;
     box-shadow: 0px 0px 7px 0px;
     align-items: center;
     border-radius: 27px;
@@ -445,13 +446,15 @@ display: none;
     background-color: white;
     overflow: auto;
     z-index: 1;
+    max-height: 24%;
+    max-width: 80%;
 }
 
 .corte_flexiarriba {
     position: absolute;
     width: 100%;
     height: 20vh;
-    top: 80em;
+    top: 81em;
 }
 
 .corte_flexiabajo {
@@ -489,6 +492,11 @@ body p, a {
 }
 .detalles_evnto_header_movil{
     width: 44%;
+}
+.list-group-item img {
+    width: 6vw;
+    height: 6vw;
+    margin-right: 1em;
 }
 }
 
