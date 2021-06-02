@@ -20,6 +20,9 @@ header{
     background-color: #DC001B;
     height: 9.46vh;
 }
+.mobile_header{
+    display: none;
+}
 .logo_details{
     margin-right: 6rem!important;
 }
@@ -259,129 +262,12 @@ margin-bottom: 0.0625rem;
     .mobile_button_menu {
         display: none;
     }
- /* For 1200px Extra large devices (large desktops)
-@media (max-width: 1200px){
-    .img_logo_org {
-        width: 24vw;
-        position: relative;
-        left: 10%;
-        bottom: 6%;
-        border-radius: 40px 40px 40px 40px;
-        object-fit: cover;
-    }
-    .list-group-item img {
-        width: 3vw;
-        height: 3vw;
-        margin-right: 1em;
-    }
-    .login_signup a {
-        color: white;
-        font-weight: 500;
-        font-size: 1.2vw;
-    }
-    .logo_donbosco {
-        position: relative;
-        left: 4em;
-        top: 0.4em;
-        width: 20vw;
-    }
-.mask_foto_event{
-    position: relative;
-    left: 5em;
-    bottom: 12em;
-    border-radius: 10px 0 10px 0;
-    object-fit: cover;
-    box-shadow: 0px 0px 4px #000000;
-    width: 47vw;
-}
-.event_details_text {
-    position: relative;
-    width: 45.01vw;
-    height: 19vw;
-    left: 5.5em;
-    top: -10em;
-    box-shadow: 0px 0px 7px 0px;
-    align-items: center;
-    border-radius: 27px;
-    display: flex;
+    .header_fijo_movil{
+    display: none;
     background-color: white;
-    overflow: auto;
-    z-index: 1;
-}
-.p2 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5vw;
-    line-height: 22px;
-    color: #536273;
-    margin-left: 13%;
-    margin-bottom: 0.0625rem;
-}
-.p1 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5vw;
-    line-height: 1.5em;
-    color: #000000;
-    margin-left: 13%;
-    margin-bottom: 0.0625rem;
-}
-
-}
-
-/* For 992px Large devices
- @media (max-width: 992px){
-    .img_logo_org {
-        width: 26vw;
-        position: relative;
-        border-radius: 40px 40px 40px 40px;
-        object-fit: cover;
     }
-    .list-group-item img {
-        width: 4vw;
-        height: 4vw;
-        margin-right: 1em;
-    }
-    .login_signup a {
-        color: white;
-        font-weight: 500;
-        font-size: 0.3em;
-    }
-    .logo_donbosco {
-        position: relative;
-        left: 4em;
-        top: 0.6em;
-        width: 22vw;
-    }
-    .mask_foto_event {
-        position: relative;
-        left: 5em;
-        bottom: 13em;
-        border-radius: 10px 0 10px 0;
-        object-fit: cover;
-        box-shadow: 0px 0px 4px #000000;
-        width: 47vw;
-    }
-    .event_details_text {
-        position: relative;
-        width: 45.01vw;
-        height: 34vw;
-        left: 6em;
-        top: -10em;
-        box-shadow: 0px 0px 7px 0px;
-        align-items: center;
-        border-radius: 27px;
-        display: flex;
-        background-color: white;
-        overflow: auto;
-        z-index: 1;
-    }
- }
-
 /* For 768px Medium devices (tablets) */
-@media (max-width: 768px){
+@media  (max-width: 768px){
     .container{
         display: flex;
         flex-direction: column;
@@ -391,6 +277,7 @@ margin-bottom: 0.0625rem;
         height: fit-content;
         height: 2.5%;
     }
+
     .img_logo_org {
         width: 121%;
         height: 3em;
@@ -404,12 +291,14 @@ margin-bottom: 0.0625rem;
     }
     .mobile_button_menu{
         display: inline;
+        position: absolute;
+    left: 85%;
+    top: 3%;
     }
     .mobile_button_menu img{
-    position: relative;
-    left: 80%;
-    width: 5.604167vw;
-    height: 3.52187833511206vh;}
+        width: 2.604167rem;
+        height: 2rem;
+}
     .search_mobile {
         display: flex;
         align-content: center;
@@ -439,20 +328,25 @@ margin-bottom: 0.0625rem;
     position: relative;
     left: 42%;
 }
+
 .Botns_hdr_event button {
-    margin: 1em;
-    margin-right: 4em;
+ margin-right: 4em;
     border: none;
     outline: none;
     border-radius: 5px;
-    width: 5em;
-    height: 5vh;
     font-family: Montserrat;
     font-style: inherit;
     font-weight: 600;
     overflow: hidden;
-    font-size: calc(0.9em + 0.5vw);
 }
+.Botns_hdr_event {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 0;
+}
+
 .share_mobile{
  display: inline;
  position: relative;
@@ -490,9 +384,9 @@ display: none;
     display: none;
 }
 .arrow_back{
-    position: relative;
-    left: 5%;
-    top: 0%;
+    position: absolute;
+    left: 3%;
+    top: 3%;
     display: inline;
 }
 .card {
@@ -506,13 +400,16 @@ display: none;
     max-height: 15em;
     overflow: auto;
 }
-.detalles_evnto_header {
-    margin-left: 2em;
-    position: relative;
-    left: 0%;
-    top: 1%;
-}
 
+.detalles_evnto_header p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.8125rem;
+}
+.header_fijo{
+    display: none;
+}
 .p1 {
     font-family: Montserrat;
     font-style: normal;
@@ -569,18 +466,11 @@ display: none;
     height: 20vh;
     top: 88em;
 }
-
+header{
+    display: none;
 }
-
-/* For 576px Small devices (big phones)  
-@media (max-width: 576px){
-
+.mobile_header{
+    display:block;
 }
-
- /* For 480px Very small devices (medium phones)*/  
-/* @media (max-width: 480px){
-
-    body {
-        width: max-content;
-    }*/
+}
 
