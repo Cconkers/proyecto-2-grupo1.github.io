@@ -41,12 +41,11 @@
 .joaquin{
     text-align: left;
 }
-.stats{
+.nombres{
     margin-left: 25%;
     margin-top: 30%;
-    font-size: 130%;
     width: 93%;
-    font-size: 3vh;
+    font-size: 173%;
 
 }
 .abajo{
@@ -124,7 +123,8 @@
     cursor: pointer;
 }
 .t1{
-    text-decoration-line: underline;
+    color: #1597C0;
+    FONT-SIZE: 70%;
 }
 .textarea{
     margin: 0px;
