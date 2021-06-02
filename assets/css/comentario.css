@@ -60,3 +60,27 @@
     width: 90%;
     margin: 10% 0% 0% 5%;
 }
+
+@media only screen and (max-width: 481px){
+    .linea{
+        display:none !important;
+    }
+    .titulo{
+        margin-bottom: 3%;
+    }
+    .contenedor {
+        margin: 5% 5% 5% 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotoPerfil{
+        width: 13vw;
+    }
+    .texto {
+        width: 70%;
+    }
+    .caja{
+        width: 100%;
+    }
+}
