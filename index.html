@@ -1,69 +1,101 @@
-<!DOCTYPE html>
-<html lang="es-ES">
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/presentation_style.css">
-    <title>Eventos Don Bosco</title>
-</head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="src/mini-event-calendar.min.css">
+<title>Calendario</title>
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<!-- Demo Styles -->
+	<style>
+		body { 
+			 font-family: 'Roboto' }
+		#wrapper{
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
-<body>
-    <header>
-        <div>
-            <a href="www.https://fundaciondonbosco.es/">
-                <img class="logo_donbosco" src="assets/images/logotipo_fund_donbosco.png" alt="logo_don_bosco">
-            </a>
-        </div>
-        <div class="logo_evento">
-        </div>
-        <div class="lupa_email_perfil">
-            <a href="">
-                <img class="iconos_header" src="assets/images/mail_outline_24px.png" alt="icono_email">
-            </a>
-            <a href="">
-                <img class="iconos_header" src="/assets/images/lupa.png" alt="lupa_buscador">
-            </a>
-            <a href="">
-                <img class="iconos_header" src="/assets/images/icono_perfil.png" alt="icono_perfil">
-            </a>
-        </div>
-    </header>
-        <section class="seccion1" style="    background-image:url(/assets/images/foto_fondo_evento.png);
-        height:  56em;
-        background-repeat:no-repeat;
-        background-size: 100%;">
-        <div class="filtro-color"></div>
-        <h1>FALTAN</h1>
-        <div class="grid_countdown">
-            <p class="letras_countdown">DÍAS</p>
-            <p class="letras_countdown">HORAS</p>
-            <p class="letras_countdown">MIN</p>
-            <p class="letras_countdown">SEG</p>
-            <p id="countdown"></p>
-        </div>
+			background-image: url(assets/fondo\ calendario.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
 
-        <a href="assets/event_detailed_index.html">
-            <img class="imagen_logo_evento" src="assets/images/Eventocentral.png" alt="logo_evento">
-        </a>
-        <img class="evento-anterior" src="assets/images/BOTON_EVENT_ANTERIOR.png" alt="boton_anterior">
-        <img class="evento-siguiente" src="assets/images/BOTON_EVENT_SIGUIENTE.png" alt="boton_anterior">
+		[id^=calendar],
+		[id^=calendar] + h3
 
-        <p class="detalles_evento">Se convocan los Premios Andalucía Joven 2021, con la finalidad de distinguir y
-            otorgar reconocimiento público a la labor desarrollada por personas jóvenes, colectivos, entidades o
-            instituciones compuestas en su mayoría por personas jóvenes que destacan en sus respectivos campos de
-            actividades o que desarrollan un trabajo o una actividad que repercuta de forma positiva en el colectivo
-            juvenil de Andalucía.</p>
-    </section>
-    <img class="separador1-secc1-down" src="assets/images/EFECTOFOOTER_SECC1.png" alt="efecto_footer_secc1">
-    <img class="separador2-secc1-down" src="assets/images/DOWN_EFECTOFOOTER_SECC1.png" alt="efecto_footer_secc1">
+		[id^=calendar] + h3{
+			text-align: center;
+		}
+	</style>
+<script type="text/javascript">
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+	<div id="wrapper">
+		<div class="crearevent">
+			¿Quieres crear tu propio evento? 
 
-    <script src="js/presentation_main.js"></script>
+			<button>¡Adelante!</button>
+		</div>
+			<div id="calendar2"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="src/mini-event-calendar.js"></script>
+
+	<script>
+		var sameDaylastWeek = new Date().setDate(new Date().getDate() - 7);
+		var someDaynextMonth = new Date().setDate(new Date().getDate() + 31);
+
+		// All dates should be provided in timestamps
+	    	var sampleEvents = [
+			{
+			    title: "jQueryScript.Net",
+			    date: sameDaylastWeek, // Same day as today, last week
+			    link: "#"
+			},
+			{
+			    title: "Today Event",
+			    date: new Date().getTime(), // Today
+			    link: "#"
+			},
+			{
+			    title: "CSSScript.Com",
+			    date: someDaynextMonth, // Some day as today, next month
+			    link: "#"
+			}
+	    	];
+
+		$(document).ready(function(){
+			$("#calendar").MEC({
+				events: sampleEvents
+			});
+
+			// Make calendar start on monday
+			$("#calendar2").MEC({
+				from_monday: true,
+				events: sampleEvents
+			});
+		});
+	</script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
-
-
-
 </html>
