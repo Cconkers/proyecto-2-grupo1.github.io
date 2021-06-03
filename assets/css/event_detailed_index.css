@@ -27,7 +27,7 @@ header{
 }
 
 .modal {
-    background-color:#DC001B;
+    background-color:#dc001a44;
 }
 
 .modal-title {
@@ -146,7 +146,32 @@ button:focus {
     padding: 0.3rem;
     text-decoration: none!important;
     margin-right: 2em;
+    cursor: pointer;
 }
+
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+
+.btn-primary:hover {  
+    background-color: #dd7a85;
+    box-shadow: 
+      0.3em 0.3em 0 0 #DC001B,
+      inset 0.3em 0.3em 0 0 #DC001B!important;
+     border: none!important;
+}
+    .btn-primary:focus {
+      box-shadow: 
+        0 0 0 0 red,
+        inset 6em 3.5em 0 0 #DC001B!important;
+   }
+
 .white-btn{
     border: black 1px solid!important;
     color: black;
@@ -157,10 +182,7 @@ button:focus {
     margin-right: 2em;
     cursor: pointer;
 }
-.btn-primary:focus{
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgb(255 0 0 / 25%)!important;
-}
+
 .btn-primary{
     box-shadow: none;
 }
@@ -168,10 +190,7 @@ button:focus {
     color: #fff;
     background-color: #ffffff;
 }
-.btn-primary:hover {
-    color: #fff;
-    background-color: #dc001b;
-}
+
 .search{
     width: 34vw;
     position: relative;
@@ -377,6 +396,7 @@ margin-bottom: 0.0625rem;
     }
     .mobile_button_menu {
         display: none;
+     
     }
     .header_fijo_movil{
     display: none!important;
@@ -405,10 +425,12 @@ margin-bottom: 0.0625rem;
         transform: skewX(6deg);
     }
     .mobile_button_menu{
-        display: inline;
-        position: absolute;
-    left: 85%;
-    top: 3%;
+        display: block;
+        position: relative;
+        left: 85%;
+        top: 10%;
+        z-index: 2;
+        width: 9vw;
     }
     .mobile_button_menu img{
         width: 2.604167rem;
@@ -473,9 +495,6 @@ margin-bottom: 0.0625rem;
     left: -10%;
   }
     .logo_donbosco {
-        position: relative;
-        left: 19%;
-        top: 25%;
         width: 53vw;
     }
     .login_signup {
@@ -625,10 +644,10 @@ body p, a {
   }
   
   .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 9vw;
+    height: 1vw;
     background-color: rgb(255, 255, 255);
-    margin: 6px 0;
+    margin: 1vw 0;
     transition: 0.4s;
   }
   
@@ -643,5 +662,52 @@ body p, a {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
+
+ 
+  
+
+  #myLinks {
+    background: black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    bottom: 36em;
+    width: 83vw;
+    flex-direction: column;
+    left: 13%;
+  } 
+  
+.perfil_desplegable{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0.5em;
+    left: 0.7em;
+    height: 6em;
+}
+.img_menu_desplegable{
+    vertical-align: middle;
+    border-style: none;
+    width: 8vw;
+    border-radius: 50px;
+
+}
+
+  #myLinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-family: montserrat;
+  }
+     
+  #myLinks a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
+
+
+
 }
 

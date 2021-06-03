@@ -21,7 +21,7 @@
         <a class="arrow_back" href="#">
             <img src="images/Arrow.svg" alt="Flecha atrás">
         </a>
-        <a class="mobile_button_menu href=" #">
+        <a class="mobile_button_menu" href=" #">
             <img src="images/button_mobile_menu.png" alt="Botón menu mobile">
         </a>
         <a href="www.https://fundaciondonbosco.es/">
@@ -50,13 +50,23 @@
         <a class="arrow_back" href="#">
             <img style="width: 12vw;" src="images/Arrow.svg" alt="Flecha atrás">
         </a>
-        <a class="mobile_button_menu href=" #">
-            <div class="container" onclick="desplegarHamburguesa(this)">
+        <a class="mobile_button_menu" href="javascript:void(0);">
+            <div class="container" onclick="desplegarHamburguesa(this); myFunction();">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
         </a>
+
+        <div id="myLinks">
+            <div class="perfil_desplegable">
+<img class="img_menu_desplegable" src="/assets/images/profile1.jpg" alt="foto de perfil">
+          <a href="#news">Joaquin Musk</a>
+            </div>
+          <a href="#contact">Crear Evento</a>
+          <a href="#about">Cerrar Sesion</a>
+        </div>
+
         <a href="www.https://fundaciondonbosco.es/">
             <img class="logo_donbosco" src="images/logotipo_fund_donbosco.png" alt="logo_don_bosco">
         </a>
@@ -87,8 +97,8 @@
                 <p>Premios Andalucía Joven</p>
             </div>
             <div class="Botns_hdr_event">
-                <button class="red-btn" style="background-color: #DC001B; color: white;">Unirse</button>
-                <button type="button" class="white-btn btn btn-primary mx-auto" data-toggle="modal"
+                <button class="red-btn pulse" onclick="window.location.href='mailto:example@email.com';" style="color: white;">Unirse</button>
+                <button type="button" class="offset white-btn btn btn-primary mx-auto" data-toggle="modal"
                     data-target="#exampleModal">Compartir</button>
                 </a>
             </div>
@@ -101,7 +111,8 @@
         <div class="Botns_hdr_event">
             <button class="white-btn"
                 style="border: black 1px solid; color: black; background-color: white;">Compartir</button>
-            <a class="share_mobile" href="#">
+            <a class="share_mobile" data-toggle="modal"
+            data-target="#exampleModal" href="#">
                 <img src="images/COMPARTIR.svg" alt="compartir">
             </a>
         </div>
