@@ -10,3 +10,5 @@ function desplegarHamburguesa(x) {
       x.style.display = "block";
     }
   };
+
+  alert(jelo)
