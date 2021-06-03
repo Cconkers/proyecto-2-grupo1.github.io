@@ -146,7 +146,7 @@
     width: 42%;
 }
 
-@media only screen and (max-width: 500px ) {
+@media (max-width: 481px ) {
     .body{
         margin:0%;
     }
