@@ -83,7 +83,9 @@ button:focus {
     outline: 0;
     box-shadow: none !important
 }
-
+.fab{
+    font-size: larger;
+}
 .ur.focus,
 .ur:focus {
     outline: 0;
@@ -99,6 +101,12 @@ button:focus {
 }
 .logo_details{
     margin-right: 6rem!important;
+}
+.contenedor{
+    display: block;
+}
+.contenedor_mobile{
+    display: none!important;
 }
 .arrow_back{
     display: none;
@@ -149,12 +157,23 @@ button:focus {
     margin-right: 2em;
     cursor: pointer;
 }
+.btn-primary:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(255 0 0 / 25%)!important;
+}
+.btn-primary{
+    box-shadow: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ffffff;
+}
 .btn-primary:hover {
     color: #fff;
     background-color: #dc001b;
 }
 .search{
-    width: 34em;
+    width: 34vw;
     position: relative;
     right: 20%;
     height: fit-content;
@@ -171,10 +190,10 @@ button:focus {
     font-size: 1vw;
 }
 .login_signup{
-    right: 7%;
-    position: relative;
+    right: 4em;
+    position: absolute;
     top: 0.5rem;
-    width: -webkit-fill-available;
+    width: 15vw;
 }
 
 .login_signup a{
@@ -286,8 +305,7 @@ margin-bottom: 0.0625rem;
     border-radius: 10px 0 10px 0;
     object-fit: cover;
     box-shadow: 0px 0px 4px #000000;
-    width: 83%;
-    height: 15%;
+    width: 43vw;
 }
 
 .list-group-item{
@@ -335,6 +353,8 @@ margin-bottom: 0.0625rem;
         border-radius: 5px 5px 5px 5px;
         overflow: auto;
         top: 62%;
+        height: 15em;
+        max-height: 15em;
     }
 
 
@@ -405,9 +425,7 @@ margin-bottom: 0.0625rem;
         top: 19%;
     }
 .search_mobile img{
-    position: relative;
-    bottom: 2.1em;
-    width: 73%; 
+    width: 80%;
 }
 .mask_foto_event {
     position: absolute;
@@ -415,14 +433,14 @@ margin-bottom: 0.0625rem;
     border-radius: 10px 0 10px 0;
     object-fit: cover;
     box-shadow: 0px 0px 4px #000000;
-    width: 90%;
-    top: 51%;
+    width: 91%;
+    top: 45%
 }
 .link_lupa{
-    position: relative;
-    left: 42%;
-    top: 0.25em;
-
+    position: absolute;
+    left: 87%;
+    top: 17%;
+    width: 5vw;
 }
 
 .Botns_hdr_event {
@@ -533,7 +551,7 @@ display: none;
     position: absolute;
     width: 23rem;
     height: 13rem;
-    top: 34em;
+    top: 91%;
     left: 10%;
     box-shadow: 0px 0px 7px 0px;
     align-items: center;
@@ -582,7 +600,7 @@ body p, a {
     font-weight: 600;
     /* font-size: 20px; */
     line-height: 24px;
-    color: #2E2E2E;
+    color: #ffffff;
     overflow: hidden;
     font-size: calc(0.5em + 1.5vw);
 }
@@ -594,5 +612,35 @@ body p, a {
     height: 6vw;
     margin-right: 1em;
 }
+.contenedor_mobile{
+    display: block!important;
+}
+.contenedor{
+    display:none!important;
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
 }
 
