@@ -9,7 +9,7 @@
 }
 .header{
     background: #DC001B;
-    height: 55px;
+    height: 7vh;
 }
 .boton{
     text-align: right;
@@ -28,9 +28,12 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.flecha{
+    display: none;
+}
 .profile{
     display: flex;
-    height: 60%;
+    height: 25vh;
     margin-left: 50%;
     margin-top: 30%;
 }
@@ -38,15 +41,15 @@
     width: 19%;
     display: flex;
 }
-.joaquin{
-    text-align: left;
-}
 .nombres{
     margin-left: 25%;
     margin-top: 30%;
     width: 93%;
     font-size: 1.7vw;
 
+}
+.input{
+    font-size: 60%;
 }
 .abajo{
     margin-left: 9.4%;
@@ -143,9 +146,129 @@
     width: 42%;
 }
 
-@media  only screen and (max-width: 481px){
+@media only screen and (max-width: 500px ) {
     .body{
+        margin:0%;
+    }
+    .boton{
+        margin-right: 0;
+    }
+    .arriba{
+        display: initial;
+        grid-template-columns: none;
+    }
+    .header{
+       height: 11.3vh;
+      
+    }
+    .logo{
+        display: none;
+    }
+    .volver{
+        display: none;
+    }
+    .flecha{
+        display: block;
+        margin-left: 2%;
+        width: 1vw;
+        position: absolute;
+        top: 4%;
+    }
+    .nombres{
+        width: 282%;
+        font-size: 3.7vw;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin-top: 0%;
+    }
+    .perfil{
+        width: 30%;
+        flex-direction: column;
+    }
+    .profile{
+        width: 50vw;
+        height: 1%;
+        margin-left: 85%;
+    }
+    .joaquin{
+        text-align: center;
+    }
+    .t1{
+        color: #1597C0;
+        font-size: 70%;
+        margin-top: -2%;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        height: 3.5vw;
+        width: 27vw;
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 1.7vh;
+    }
+    select{
+        height: 3.5vw;
+        width: 27vw;
+        margin-left: 1%;
+        margin-top: 1%;
+        font-size: 1.7vh;
+    }
+    .date{
+        width: 30vw; 
+        height: 3.5vw;
+    }
+     .nombrey{
+        margin-right: 0%;  
+        width: 107%;
+    }
+    .div1{
+        width: 44%;
+    }
+    .div2{
+        width: 44%;
+    }
+    .correo{
+        margin-right: 0%;
+        width: 108%;
+    }
+    .localidad{
+        margin-right: 0%;
+        width: 108%;
+    }
+    .fecha{
+        margin-right: 0%;
+        width: 108%;
+    }
+    .idioma{
+        margin-right: 0%;
+        width: 108%;
+    }
+    .genero{
+        margin-right: 0%;
+        width: 108%;
+    }
+    .grid{
+        font-size: 2.5vw;
+    }
+    .nacimiento{
+        width: 31vw;
+        margin-top: 0;
+        margin-right: -12%;
+    }
+    .formulario{
+        width: 130%;
+    }
+    .input{
+        font-size: 60%;
+    }
+    .textarea{
+        margin: 0px;
+        width: 84.5%;
+        height: 15vh;
+        font-size: 2.5vw;
     }
 }
