@@ -75,3 +75,10 @@
     margin-top: 1em;
     cursor: pointer;
 }
+
+@media (max-width  481px) {
+    .stats{
+        font-size: 130%;
+        width: 93%;
+    }
+}
