@@ -16,6 +16,9 @@
     margin-right: 8%;
     
 }
+.flecha{
+    display: none;
+}
 .logo{
     text-align: center;
 }
@@ -37,9 +40,6 @@
 .perfil{
     width: 19%;
     display: flex;
-}
-.joaquin{
-    text-align: left;
 }
 .stats{
     margin-left: 25%;
@@ -75,13 +75,92 @@
     margin-top: 1em;
     cursor: pointer;
 }
+.fondomovil{
+    display: none;
+}
 
-@media (max-width: 500px ) {
-    .stats{
-        font-size: 130%;
-        width: 93%;
+@media (max-width: 481px ) {
+    .body{
+        margin:0%;
+    }
+
+    .volver{
+        display: none;
     }
     .logo{
         display: none !important;
     }
+    .header{
+        height: 11.3vh;
+    }
+    .flecha{
+        display: block;
+        margin-left: 2%;
+        width: 1vw;
+        position: absolute;
+        top: 4%;
+    }
+    .arriba{
+        display: initial;
+        grid-template-columns: none;
+    }
+    .boton{
+        margin-right: 0;
+    }    
+    .perfil {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .profile{
+    display: initial; 
+    height: 0%;
+    margin-left: 0%;
+    margin-top: 10%;
+    }
+
+    .stats{
+        width: 93%;
+        font-size: 1.7vw;
+        font-size: 4.7vw;
+        margin: 0;
+    }
+    .ubicacion{
+        width: 100%;
+    text-align: center;
+    }
+    .edad{
+        width: 100%;
+        text-align: center;
+    }
+    .idioma{
+        width: 100%;
+        text-align: center;
+    }
+    .genero{
+        width: 100%;
+        text-align: center;
+    }
+    .correo {
+        width: 100%;
+    text-align: center;  
+    }
+    .joaquin{
+        width: 100%;
+    text-align: center;
+    }
+    .biografia{
+        text-align: center;
+        width: 90%;
+    }
+    .diveditar{
+        text-align: center;
+        margin: 0%; 
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+    
+
+
 }
