@@ -110,10 +110,27 @@ h1{
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 1001px){
     .carousel{
-        margin-bottom: -55%;
+        margin-top: -45%;
+    }
+    .carousel-inner {
+        height: 145%;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 3%;
+        height: 10%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 33%;
+    } 
+}
+
+
+@media only screen and (max-width: 701px) {
+    .carousel{
         margin-top: -60%;
+         margin-bottom: -15%;
     }
 
     .carousel-item-next, .carousel-item-prev, .carousel-item.active{
