@@ -669,15 +669,12 @@ body p, a {
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
- 
-  
-
   #myLinks {
     background: black;
     display: none;
     position: absolute;
     z-index: 1;
-    bottom: 30em;
+    top: 0%;
     width: 83vw;
     flex-direction: column;
     left: 13%;
