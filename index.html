@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/presentation_style.css">
+    <link rel="stylesheet" href="assets/css/listadoEventos.css">
     <title>Eventos Don Bosco</title>
 </head>
 
@@ -25,10 +26,10 @@
                 <img class="iconos_header" src="assets/images/mail_outline_24px.png" alt="icono_email">
             </a>
             <a href="">
-                <img class="iconos_header" src="/assets/images/lupa.png" alt="lupa_buscador">
+                <img class="iconos_header" src="assets/images/icono_lupa.png" alt="lupa_buscador">
             </a>
             <a href="">
-                <img class="iconos_header" src="/assets/images/icono_perfil.png" alt="icono_perfil">
+                <img class="iconos_header" src="/assets/images/icono" alt="icono_perfil">
             </a>
         </div>
     </header>
@@ -36,7 +37,7 @@
         height:  56em;
         background-repeat:no-repeat;
         background-size: 100%;">
-        <div class="filtro-color"></div>
+        <div class="filtro-color">
         <h1>FALTAN</h1>
         <div class="grid_countdown">
             <p class="letras_countdown">DÍA</p>
@@ -44,19 +45,20 @@
             <p class="letras_countdown">MIN</p>
             <p class="letras_countdown">SEG</p>
             <p id="countdown"></p>
+            </div>
+            <div class="detalles_evento"><p class="detallesEvent">Se convocan los Premios Andalucía Joven 2021, con la finalidad de distinguir y
+                otorgar reconocimiento público a la labor desarrollada por personas jóvenes, colectivos, entidades o
+                instituciones compuestas en su mayoría por personas jóvenes que destacan en sus respectivos campos de
+                actividades o que desarrollan un trabajo o una actividad que repercuta de forma positiva en el colectivo
+                juvenil de Andalucía.</p></div>
         </div>
-
+        </div>
         <a href="assets/event_detailed_index.html">
             <img class="imagen_logo_evento" src="assets/images/Eventocentral.png" alt="logo_evento">
         </a>
         <img class="evento-anterior" src="assets/images/BOTON_EVENT_ANTERIOR.png" alt="boton_anterior">
         <img class="evento-siguiente" src="assets/images/BOTON_EVENT_SIGUIENTE.png" alt="boton_anterior">
 
-        <p class="detalles_evento">Se convocan los Premios Andalucía Joven 2021, con la finalidad de distinguir y
-            otorgar reconocimiento público a la labor desarrollada por personas jóvenes, colectivos, entidades o
-            instituciones compuestas en su mayoría por personas jóvenes que destacan en sus respectivos campos de
-            actividades o que desarrollan un trabajo o una actividad que repercuta de forma positiva en el colectivo
-            juvenil de Andalucía.</p>
     </section>
     <img class="separador1-secc1-down" src="assets/images/EFECTOFOOTER_SECC1.png" alt="efecto_footer_secc1">
     <img class="separador2-secc1-down" src="assets/images/DOWN_EFECTOFOOTER_SECC1.png" alt="efecto_footer_secc1">
@@ -83,8 +85,247 @@ src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script></div>
 <div class="jquery-script-clear"></div>
 </div>
+  <script src="js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  
+  <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-ride="false">
+          <div class="contenedor1">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2">
+              <img src="assets/images/profile4.jpg">
+              <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-2">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-2">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-3">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-3">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-4">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-3">
+              <img src="assets/images/profile4.jpg">
+              <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-2">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-2">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-3">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-3">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item" data-ride="false">
+          <div class="contenedor1">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-2">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-2">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-3">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-3">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2">
+              <img src="assets/images/profile4.jpg">
+              <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-2">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-2">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-3">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-3">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-ride="false">
+          <div class="contenedor1">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-2">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-2">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-3">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-3">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2">
+              <img src="assets/images/profile4.jpg">
+              <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-2">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-2">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+          <div class="contenedor1-3">
+            <p class="fecha">Lunes, 20 Mayo, 09:00 CEST</p>
+            <p class="otro">Otro evento</p>
+            <p class="descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Maiores dolores eligendi exercitationem, dolore.</p>
+            <div class="contenedor2-3">
+                <img src="assets/images/profile4.jpg">
+                <img src="assets/images/profile5.jpg">
+              <p class="mas">+ 2 personas</p>
+              <button class="unirse">Unirse</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <img class="carousel-control-prev-icon" src="assets/images/botonFlecha.png">
+            </span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <img class="carousel-control-next-icon" src="assets/images/botonFlecha.png">
+            </span>
+      </a>
+    </div>
 </div>
-	<div id="wrapper">
+	<div id="wrapper" background="/assets/images/fondo_calendario.png">
 		<div class="crearevent">
 			¿Quieres crear tu propio evento? 
 
