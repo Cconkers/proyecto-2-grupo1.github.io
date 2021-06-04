@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscribirse al evento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div >
+        <article class="header">
+            <div class="arriba">
+                <a class="logo" href="https://fundaciondonbosco.es/"> <img src="assets/Logo Don Bosco.png"> </a>
+                <a class="boton" href="https://fundaciondonbosco.es/"><button type="submit" class="volver">Volver a
+                        inicio</button></a>
+            </div>
+            </article>
+        <div >
+        <form  action="/action_page.php">
+            <div class="container">
+
+                <h1>Suscribirme al Evento</h1>
+
+                <label class="name" for="name"><b> Nombre y Apellidos:</b></label>
+                <input type="text" placeholder="Escriba aquí" name="name" id="name" required>
+                <label class="local" for="Localidad"><b>Localidad:</b></label>
+                <select id="localidad" name="localidad" required>
+                    <option data-postal="01" value="Alava/Araba">Alava/Araba</option>
+                    <option data-postal="02" value="Albacete">Albacete</option>
+                    <option data-postal="03" value="Alicante">Alicante</option>
+                    <option data-postal="04" value="Almeria">Almería</option>
+                    <option data-postal="05" value="Avila">Avila</option>
+                    <option data-postal="06" value="Badajoz">Badajoz</option>
+                    <option data-postal="07" value="Islas Baleares">Islas Baleares</option>
+                    <option data-postal="08" value="Barcelona">Barcelona</option>
+                    <option data-postal="09" value="Burgos">Burgos</option>
+                    <option data-postal="10" value="Caceres">Cáceres</option>
+                    <option data-postal="11" value="Cadiz">Cádiz</option>
+                    <option data-postal="12" value="Castellon">Castellón</option>
+                    <option data-postal="13" value="Ciudad Real">Ciudad Real</option>
+                    <option data-postal="14" value="Cordoba">Córdoba</option>
+                    <option data-postal="15" value="A Coruna/La Coruna">A Coruña/La Coruña</option>
+                    <option data-postal="16" value="Cuenca">Cuenca</option>
+                    <option data-postal="17" value="Gerona/Girona">Gerona/Girona</option>
+                    <option data-postal="18" value="Granada">Granada</option>
+                    <option data-postal="19" value="Guadalajara">Guadalajara</option>
+                    <option data-postal="20" value="Gipuzkoa/Guipuzcoa">Gipuzkoa/Guipuzcoa</option>
+                    <option data-postal="21" value="Huelva">Huelva</option>
+                    <option data-postal="22" value="Huesca">Huesca</option>
+                    <option data-postal="23" value="Jaen">Jaen</option>
+                    <option data-postal="24" value="Leon">León</option>
+                    <option data-postal="25" value="Lerida/Lleida">Lérida/Lleida</option>
+                    <option data-postal="26" value="La Rioja">La Rioja</option>
+                    <option data-postal="27" value="Lugo">Lugo</option>
+                    <option data-postal="28" value="Madrid">Madrid</option>
+                    <option data-postal="29" value="Malaga">Málaga</option>
+                    <option data-postal="30" value="Murcia">Murcia</option>
+                    <option data-postal="31" value="Navarra">Navarra</option>
+                    <option data-postal="32" value="Orense/Ourense">Orense/Ourense</option>
+                    <option data-postal="33" value="Asturias">Asturias</option>
+                    <option data-postal="34" value="Palencia">Palencia</option>
+                    <option data-postal="35" value="Las Palmas">Las Palmas</option>
+                    <option data-postal="36" value="Pontevedra">Pontevedra</option>
+                    <option data-postal="37" value="Salamanca">Salamanca</option>
+                    <option data-postal="38" value="S.C.Tenerife">S.C.Tenerife</option>
+                    <option data-postal="39" value="Cantabria">Cantabria</option>
+                    <option data-postal="40" value="Segovia">Segovia</option>
+                    <option data-postal="41" value="Sevilla">Sevilla</option>
+                    <option data-postal="42" value="Soria">Soria</option>
+                    <option data-postal="43" value="Tarragona">Tarragona</option>
+                    <option data-postal="44" value="Teruel">Teruel</option>
+                    <option data-postal="45" value="Toledo">Toledo</option>
+                    <option data-postal="46" value="Valencia">Valencia</option>
+                    <option data-postal="47" value="Valladolid">Valladolid</option>
+                    <option data-postal="48" value="Bizkaia/Vizcaya">Bizkaia/Vizcaya</option>
+                    <option data-postal="49" value="Zamora">Zamora</option>
+                    <option data-postal="50" value="Zaragoza">Zaragoza</option>
+                    <option data-postal="51" value="Ceuta">Ceuta</option>
+                    <option data-postal="52" value="Melilla">Melilla</option>
+                </select>
+                <label class="Email" for="Email"><b>Correo Electrónico:</b></label>
+                <input type="text" placeholder="Introducir Correo Electrónico" name="Email" id="Email"minlength="5" maxlength="100" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
+                <label class="fono" for="fono" ><b>Teléfono:</b></label>
+                <input type="number" placeholder="Introducir teléfono" name="teléfono"minlength="1" maxlength="10" required  
+                    id="fono">
+                <div class="suscribir">
+                <button type="submit" class="Registro">Suscribir</button>
+                 </div>
+                <p id="pie">Al hacer click en “registrarte”, aceptas nuestros <a href="#"> Términos de Uso</a> y recibir
+                    emails y novedades de Fundación Don bosco y reconoces que has leído nuestra<a href="#">Política de
+                        Privacidad</a> . También reconoces que Fundación Don bosco utilice cookies para ofrecerte la
+                    mejor experiencia como usuario.</p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
