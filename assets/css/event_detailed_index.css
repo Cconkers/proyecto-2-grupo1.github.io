@@ -496,6 +496,9 @@ margin-bottom: 0.0625rem;
   }
     .logo_donbosco {
         width: 53vw;
+        position: absolute;
+        left: 20%;
+        top: 4%;
     }
     .login_signup {
 display: none;
@@ -524,11 +527,12 @@ display: none;
     overflow: auto;
 }
 
-.detalles_evnto_header p{
+.detalles_evnto_header_movil p{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     line-height: 1.8125rem;
+    font-size: 4.5vw;
 }
 .header_fijo{
     display: none;
@@ -537,8 +541,10 @@ display: none;
     display:-webkit-box!important;
     background-color: white;
     height: 1.5%;
-
+    top: 0;
+    z-index: 3;
    }
+
 .p1 {
     font-family: Montserrat;
     font-style: normal;
@@ -625,7 +631,7 @@ body p, a {
     font-size: calc(0.5em + 1.5vw);
 }
 .detalles_evnto_header_movil{
-    width: 44%;
+    width: 70%;
 }
 .list-group-item img {
     width: 6vw;
@@ -671,7 +677,7 @@ body p, a {
     display: none;
     position: absolute;
     z-index: 1;
-    bottom: 36em;
+    bottom: 30em;
     width: 83vw;
     flex-direction: column;
     left: 13%;
