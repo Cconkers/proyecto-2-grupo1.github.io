@@ -52,6 +52,7 @@ h1{
     justify-content: center;
     height: 104.57063711911357vh;
     margin-bottom: 15%;
+    margin-top: -17%;
 }
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active{
@@ -110,30 +111,35 @@ h1{
 }
 
 @media only screen and (max-width: 481px) {
-    /* .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    .carousel{
+        margin-bottom: -55%;
+        margin-top: -60%;
+    }
+
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 190%;
+        grid-template-rows: 51%;
     }
 
     .carousel-control-prev-icon {
-        height: 30%;
+        height: 60%;
     }
     
     .carousel-control-next-icon {
         transform: rotate(180deg);
-        height: 30%;
+        height: 60%;
     }
 
     .carousel-control-next, .carousel-control-prev {
         width: 3%;
-        height: 70%;
+        height: 10%;
         margin-left: 4%;
         margin-right: 4%;
-        margin-top: 5%;
-    } */
+        margin-top: 33%;
+    } 
     .contenedor1, .contenedor1-2, .contenedor1-3 {
-        height: 27%; 
+        height: 95%; 
     }
     .contenedor1-2, .contenedor1-3, .contenedor2-2, .contenedor2-3 {
         display:none !important;
