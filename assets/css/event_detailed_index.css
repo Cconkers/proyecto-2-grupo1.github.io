@@ -671,9 +671,9 @@ body p, a {
   #myLinks {
     background: black;
     display: none;
-    position: absolute;
+    position: relative;
     z-index: 1;
-top: 0%;
+    top: -24%;
     width: 83vw;
     flex-direction: column;
     left: 13%;
