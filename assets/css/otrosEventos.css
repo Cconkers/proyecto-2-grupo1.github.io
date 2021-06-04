@@ -1,4 +1,11 @@
-h1{
+#carouselExampleControls{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 100%;
+    column-gap: 5%;
+}
+
+.otrosEvent{
     display: flex;
     justify-content: center;
     margin: 4% 0% 4% 0%;
@@ -50,13 +57,6 @@ h1{
     justify-content: center;
 }
 
-.carousel-item-next, .carousel-item-prev, .carousel-item.active{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 100%;
-    column-gap: 5%;
-}
-
 .fecha{
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-style: normal;
@@ -89,6 +89,10 @@ h1{
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 5%;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    margin-top:15%
 }
 
 .carousel-control-prev-icon {

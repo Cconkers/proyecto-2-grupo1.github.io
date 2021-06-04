@@ -15,12 +15,14 @@
 }
 
 .titulo{
-    margin-bottom: 1%;
+    margin-bottom: 3%;
+    margin-top: -3%;
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;;
     font-style: normal;
     font-weight: bold;
     font-size: 3.615649867374005vh;
     color: #000000; 
+    margin-left: -75%;
 }
 
 .caja{
