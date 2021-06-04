@@ -51,20 +51,20 @@
             <img style="width: 12vw;" src="images/Arrow.svg" alt="Flecha atrás">
         </a>
         <a class="mobile_button_menu" href="javascript:void(0);">
-            <div class="container" onclick="desplegarHamburguesa(this); myFunction();">
+            <div id="container_onclick" class="container" onclick="desplegarHamburguesa(this); myFunction(); efectoIrse();">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
         </a>
 
-        <div id="myLinks">
+        <div id="myLinks" class="animate__animated animate__bounceInDown animate__fast">
             <div class="perfil_desplegable">
-<img class="img_menu_desplegable" src="/assets/images/profile1.jpg" alt="foto de perfil">
-          <a href="#news">Joaquin Musk</a>
+                <img class="img_menu_desplegable" src="/assets/images/profile1.jpg" alt="foto de perfil">
+                <a href="#news">Joaquin Musk</a>
             </div>
-          <a href="#contact">Crear Evento</a>
-          <a href="#about">Cerrar Sesion</a>
+            <a href="#contact">Crear Evento</a>
+            <a href="#about">Cerrar Sesion</a>
         </div>
 
         <a href="www.https://fundaciondonbosco.es/">
@@ -97,7 +97,8 @@
                 <p>Premios Andalucía Joven</p>
             </div>
             <div class="Botns_hdr_event">
-                <button class="red-btn pulse" onclick="window.location.href='mailto:example@email.com';" style="color: white;">Unirse</button>
+                <button class="red-btn pulse" onclick="window.location.href='mailto:example@email.com';"
+                    style="color: white;">Unirse</button>
                 <button type="button" class="offset white-btn btn btn-primary mx-auto" data-toggle="modal"
                     data-target="#exampleModal">Compartir</button>
                 </a>
@@ -111,8 +112,7 @@
         <div class="Botns_hdr_event">
             <button class="white-btn"
                 style="border: black 1px solid; color: black; background-color: white;">Compartir</button>
-            <a class="share_mobile" data-toggle="modal"
-            data-target="#exampleModal" href="#">
+            <a class="share_mobile" data-toggle="modal" data-target="#exampleModal" href="#">
                 <img src="images/COMPARTIR.svg" alt="compartir">
             </a>
         </div>
