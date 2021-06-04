@@ -76,12 +76,12 @@
     cursor: pointer;
 }
 
-@media (max-width: 500px and min-width:1440px) {
+@media (max-width: 500px ) {
     .stats{
         font-size: 130%;
         width: 93%;
     }
     .logo{
-        display: none;
+        display: none !important;
     }
 }
