@@ -4,7 +4,7 @@ h1{
     margin: 4% 0% 4% 0%;
 }
 
-.contenedor1, .contenedor1-2, .contenedor1-3, .contenedor1-4, .contenedor1-5, .contenedor1-6{
+.contenedor1, .contenedor1-2, .contenedor1-3{
     border: 0.3px solid #000000;
     box-sizing: border-box;
     border-radius: 5px;
@@ -13,7 +13,7 @@ h1{
     padding: 5% 5% 0% 5%;
 }
 
-.contenedor2, .contenedor2-3, .contenedor2-3{
+.contenedor2, .contenedor2-2, .contenedor2-3{
     display:flex;
     padding: 0% 0% 5% 0%;
 }
@@ -25,6 +25,7 @@ h1{
 
 .carousel-inner{
     width: 80%;
+    height: 110%;
 }
 
 .mas{
