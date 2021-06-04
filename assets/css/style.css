@@ -19,7 +19,7 @@ body{
     margin-left: 4%;
     width: 50%;
     height:20%;
-    margin-top: 5%;
+    margin-top: -113%;
     text-align: center;
     font-family: 'Mulish', sans-serif;
     text-align: left;
@@ -49,7 +49,7 @@ p .div1{
 .div2{
     width: 100%;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: -100%;
     background-color: #F3F3F3;
     display: flex;
     flex-direction: column;
