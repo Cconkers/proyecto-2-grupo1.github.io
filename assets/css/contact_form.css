@@ -1,0 +1,195 @@
+html {
+    height: 100%;
+}
+.body{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+}
+.arriba{
+    display: grid;
+    grid-template-rows: repeat(2 , 20%);
+}
+.header{
+    background: #DC001B;
+    height: 55px;
+}
+.boton{
+    text-align: right;
+    margin-right: 8%;
+}
+.flecha{
+    display: none;
+}
+.logo{
+    text-align: center;
+}
+.volver{
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    color: #DC001B;
+    background: rgb(255, 255, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenedor{
+    width: 90%!important;
+}
+.artc_izq h1 {
+color: #DC001B;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 2rem;
+line-height: 37px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.artc_izq{
+    margin-top: 2em;
+    margin-right:4em;
+    margin-left: 6em;
+}
+.artc_der{
+    margin-top: 1em!important;
+}
+.rojita {
+color: #DC001B;
+margin: 0 5px 0 5px;
+}
+.email{
+    font-size: 1.2em;
+    width: 14em;
+}
+ ul li span{
+    color: #DC001B;
+  }
+    li{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;
+line-height: 28px;
+align-items: center;
+margin-top: 1em;
+}
+.negrita{
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+}
+.artc_der, .artc_izq p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;
+line-height: 28px;
+margin-top:0.5em;
+align-items: center;
+color: #000000;
+}
+.mantenme{
+    width: 90%;
+    font-size: 1.2em;
+
+}
+.checktext{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    font-size: 1.2em;
+}
+.responsable {
+    color: #DC001B;
+    width: 90%;
+    font-size: 1.2em;
+}
+.newsletter{
+    color: #DC001B ;
+    margin: 0 0 0 5px;
+}
+.nombreapellidos, .correo, .asunto, .area{
+    border: 0.2px  solid #BFBFBFBF;
+    border-radius: 5px;
+    margin-top: 1.5em;
+    width: 65%;
+    height: 20%;
+    font-size: 1em;
+}
+.correo, .asunto, .area{
+    margin-top: 4%;
+}
+.acepto{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+.lapolitica{
+    font-weight: 700 ;
+    text-decoration-line: underline;
+}
+.enviar{
+    margin-top: 2%;
+    border-radius: 3px;
+    border: 1px solid #BFBFBFBF;
+    width: 18%;
+    height: 23%;
+    background-color: white;
+    cursor: pointer;
+}
+.enviar:focus{
+    background-color:#88232e;
+    transform: scaleX(5px 0);
+    transform: scaleY(5px 0);
+}
+.area{
+    resize: none;
+    height: 50%;
+    
+}
+.contacto{
+    color: #DC001B ;
+    margin-top: 1.2%;
+}
+.formulario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 99%;
+}
+.cajita{
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+.aviso{
+    color: #DC001B;
+    margin: 0 5px 0 5px;
+}
+.button-1 {
+    background-color: transparent;
+    border: 1px solid #d70000;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #000000;
+  }
+  .button-1:hover {
+    box-shadow: 0 0 10px 0 #ffa8b3 inset, 0 0px 15px 0px #ff5a71;
+    border: 1px solid #ff0421;
+    background-color: white;
+}
+.area:focus, .nombreapellidos:focus, .correo:focus, .asunto:focus {
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px 0 #DC001B inset, 0 0px 5px 0px #dc001a;
+    border: 1px solid rgb(255, 0, 0);
+  }
+  .area{
+    color: #DC001B;
+  }
+
+
