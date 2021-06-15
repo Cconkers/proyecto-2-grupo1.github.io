@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creacion de Eventos</title>
+    <link rel="stylesheet" href="/assets/css/StyloEvent.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <div class="arriba d-flex justify-content-center align-items-center">
+            <a class="logo" href="/index.html"> <img src="images/logotipo_fund_donbosco.png"> </a>
+            <a class="boton" href="/index.html"><button type="submit" class="volver">Volver a
+                    inicio</button></a>
+        </div>
+    </header>
+
+
+
+    <div class="container w-50">
+        <div class="contenido-1">
+            <h1 class="title">Crea tu propio evento</h1>
+            <p class="text-1">Logo de la organización <span class="text-2">(Por defecto se usará el logo de “Fundación
+                    Don Bosco”)</span></p>
+        </div>
+        <input type="file" class="archivo" value="subir" id="up"></button>
+        <div class="div">
+            <label class="name" for="name"> Nombre del evento</label>
+            <input id="name" type="text" placeholder="Nombre del evento" name="name" required>
+            <label class="descripcion" for="descripcion">Breve descripción del evento</label>
+            <input id="descripcion" type="text" placeholder="Escriba una breve introducción sobre el tema de su evento."
+                name="descripcion" minlength="1" maxlength="150" required>
+            <label class="details" for="detalles">Detalles del evento</label>
+            <textarea id="details" name="texto" minlength="5" maxlength="1500" placeholder="Escriba algo"></textarea>
+            <label class="descripcion" id="lugar" for="lugar" form="lugar">Lugar del evento</label>
+            <p class="text-c1"><input class="casilla-1" type="checkbox" name="casilla" value="">Fundación Don Bosco.</p>
+            <p class="text-c2">(Si pueden asistir particpantes online, marque ambas opciones)</p>
+            <p class="text-on"><input class="online" type="checkbox" name="casilla" value="">Online:</p>
+            <p class="time2"><input id="online" type="url" name="url" placeholder="Enlace de la conferencia" value="">
+            </p>
+        </div>
+        <p class="f-h">Seleccione fecha y hora </p>
+        <div id="fecha-hora">
+            <input class="date" type="date" name="fecha">
+            <p class="a">a las</p> <input class="time" type="time" name="hora">
+        </div>
+
+        <div class="div2">
+            <input id="img" type="file" name="img" required> <span class="text-img">(Por defecto se usarán imagenes
+                relacionadas con “Fundación Don Bosco”)</span>
+        </div>
+        <div class="confirmar1">
+            <input class="confirmar" type="submit" name="Confirmar" value="Confirmar">
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p class="asimismo">Asimismo, te informamos que la Sociedad y la entidad Vocento Gestión de Medios y Servicios,
+            S.L.U., sociedad
+            domiciliada en la calle Josefa Valcárcel, 40 bis, 28027 Madrid, con CIF B-82.462.813(en adelante, “Vocento”)
+            son corresponsables del tratamiento de tus datos de carácter personal a los efectos de prestarte los
+            servicios identificados en el apartado 5.1. de la presente política de privacidad.
+            Asimismo, la presente Política de Privacidad tiene por objeto facilitar información sobre los derechos que
+            asisten tanto al Usuario como al Visitante en virtud del Reglamento General de Protección de Datos (“RGPD”).
+            Si tienes cualquier duda relativa al tratamiento de tus datos personales, contacta con la Sociedad o
+            Vocento.
+            Asimismo, te informamos que el Grupo Vocento (al cual pertenece tanto la Sociedad como Vocento) cuenta con
+            un Delegado de Protección de Datos designado a nivel Grupo, con quien te podrás poner en contacto a través
+            de esta dirección; www.vocento.com.</p>
+    </footer>
+</body>
+
+</html>

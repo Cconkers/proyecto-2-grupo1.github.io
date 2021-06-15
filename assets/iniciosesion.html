@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/iniciosesion.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Inicio Sesión</title>
+</head>
+
+<body>
+    <header class="justify-content-between align-items-center container-fluid d-flex">
+
+            <a class="flecha" href="/index.html"><img src="images/Arrow_1.png"></a>
+            <a class="logo" href="/index.html"> <img src="images/logotipo_fund_donbosco.png"> </a>
+            <a class="boton" href="/index.html">
+                <button type="submit" class="volver">Volver a inicio</button></a>
+
+    </header>
+    <div class="father container w-75">
+        <form class="align-items-center d-flex flex-column" id="form">
+            <h1 class="iniciarsesion">Inicia Sesión</h1>
+
+            <label class="correo">Correo Electrónico</label>
+            <input autocomplete="username" id="email" type="text" class="recpass" id="staticEmail" autofocus>
+
+
+
+
+            <label for="contraseña" class="contraseña">Contraseña</label>
+
+            <input autocomplete="current-password" type="password" class="recpass" id="password">
+
+
+            <div id="loading" class="lds-facebook"><div></div><div></div><div></div></div>
+            <a href="">
+
+
+                <p class="norecuerdas">¿No recuerdas tu contraseña?</p>
+            </a>
+
+            <button id="submit" type="submit" class="iniciar">Iniciar Sesion</button>
+            <p class="mensaje" id="mensaje"></p>
+            <a id="enlaceNoValido" href="#">
+                <p class="aun">¿Aún no estás registrado? ¡Regístrate ahora!</p>
+            </a>
+
+        </form>
+    </div>
+    <footer>
+        <p class="privacidad">Al hacer click en “Inicia Sesión”, aceptas nuestros <a target="_blank" href="https://fundaciondonbosco.es/politica-privacidad/"> Términos de Uso </a> y
+            recibir
+            emails y novedades de Fundación Don
+            bosco y reconoces que has leído nuestra <a target="_blank" href="https://fundaciondonbosco.es/politica-privacidad/"> Política de privacidad</a>.
+            También
+            reconoces que Fundación Don bosco
+            utilice cookies para ofrecerte la mejor experiencia como usuario.</p>
+    </footer>
+</body>
+<script src="/js/iniciar_sesion.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</html>
