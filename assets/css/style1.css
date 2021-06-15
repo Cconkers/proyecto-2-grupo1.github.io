@@ -1,0 +1,206 @@
+*{
+    margin: 0%;
+}
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.body{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.arriba{
+    display: grid;
+    grid-template-rows: repeat(2 , 20%);
+}
+.header{
+    background: #DC001B;
+    height: 55px;
+}
+.boton{
+    text-align: right;
+    margin-right: 8%;
+    
+}
+.logo{
+    text-align: center;
+    margin-top: -0.5%;
+}
+.volver{
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    color: #DC001B;
+    background: rgb(255, 255, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#inicio{
+    width: 32vw;
+    height: 6vh;
+    border-radius: 12px;
+    border:none;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+h1{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: Montserrat;
+    font-size: 200%;
+    color: #000000;
+}
+.name{
+    margin: 1% 0% 1% 0%;
+    font-family: Montserrat;
+    font-size: 23px;
+    text-align: center;
+    color: #494949;
+}
+#name{
+     
+    width: 33vw;
+    height: 7vh;
+    margin-top: 1%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+    border-radius: 4px;
+    border:none ;
+}
+.local{
+    margin: 1% 0% 1% 0%;
+    font-family: Montserrat;
+    font-size: 23px;
+    line-height: 28px;
+    color: #494949;
+
+}
+#localidad{
+    
+    width: 32vw;
+    height: 6vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+    border-radius: 4px;
+    border:none ;
+}
+.Email{
+    margin: 1% 0% 1% 0%;
+    font-family: Montserrat;
+    font-size: 23px;
+    text-align: center;
+    color: #494949;
+}
+#Email{
+    
+    width: 32vw;
+    height: 6vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+    border-radius: 4px;
+    border:none ;
+}
+
+
+.fono{ 
+    margin: 1% 0% 1% 0%;
+    font-family: Montserrat;
+    font-size: 23px;
+    color: #494949;
+}
+#fono{
+    
+    width: 500px;
+    height: 45px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+    border-radius: 4px;
+    border:none ;
+}
+.Registro{
+    width: 10vw;
+    height: 5vh;
+    font-family: Montserrat;
+    font-size: 23px;
+    color: #FFFFFF;
+    background-color: #DC001B;
+    border-radius: 8px;
+    border: none;
+
+ }
+ .suscribir{
+    text-align: center; 
+    margin-top: 2%;
+    margin-bottom: 2%; 
+
+ }
+ #pie{
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    color: #494949;
+ }
+ @media only screen and (max-width: 481px) {
+    h1{
+        width: 62%;
+        font-size: 170%;
+        
+    }
+    .volver{
+        font-size: 8px;
+    }
+    .logo{
+        
+        height: 6.5vh;
+        margin-top: 1%;
+    }
+    .name{
+        font-size: 17px;
+        margin: 5% 0% 3% 0%;
+    }
+    #name{
+        width: 77vw;
+        height: 4vh;
+    }
+    .local{
+        font-size: 17px;
+        margin: 3% 0% 3% 0%;
+    }
+    #localidad{
+        width: 77vw;
+        height: 4vh;
+    }
+    .Email{
+        font-size: 17px;
+        margin: 3% 0% 3% 0%;
+    }
+    #Email{
+        width: 77vw;
+        height: 4vh;
+    }
+    .fono{
+        font-size: 17px;
+        margin: 3% 0% 3% 0%;
+    }
+    #fono{
+        width: 77vw;
+        height: 4vh;
+    }
+    .Registro{
+        width: 20vw;
+        height: 5vh;
+        font-size: 16px;
+        margin: 14% 1% 0% 1%;
+    }
+    #pie{
+        margin: 2% 5% 2% 3%;
+        padding-left: 2%;
+        font-size: 13px;
+        text-align: left;
+    }
+ }
+ 

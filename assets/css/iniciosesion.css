@@ -1,0 +1,167 @@
+body{
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.arriba{
+    display: grid;
+    grid-template-rows: repeat(2 , 20%);
+}
+header{
+    background-color: #DC001B;
+    height: 9.46vh;
+}
+.logo img{
+    width: calc(9em + 11vw);
+    margin-left: 1.7em;
+}
+.flecha img{
+    width: calc(1em + 2vw);
+    -webkit-filter: brightness(100);
+}
+.iniciar:hover{
+    box-shadow:  0 0px 15px 0px #ff5a71;
+    border: 1px solid #DC001B;
+    background-color: #DC001B;
+    color: white;
+}
+
+.volver{
+    font-weight: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    color: #DC001B;
+    background: rgb(255, 255, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.correo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 15.85px;
+}
+
+.contraseña{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    line-height: 28px;
+}
+label{
+    margin: 2%;
+}
+.recpass{
+    height: 2.2em;
+    width: 30vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px rgb(255 0 0 / 30%);
+    border-radius: 4px;
+    border: none;
+}
+.recpass:focus {
+    outline: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px 0 #DC001B inset, 0 0px 5px 0px #dc001a;
+    border: 1px solid rgb(255, 0, 0);
+  }
+.norecuerdas{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    align-items: center;
+    color: #15c;
+    text-decoration-line: underline;
+    margin-top: 2em;
+}
+.iniciar{
+    background: #DC001B;
+    border-radius: 7px;
+    border: none;
+    color:#FFFFFF;
+    width: 7em;
+    height: 2em;
+    font-size: 1.3em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.privacidad{
+    line-height: 16px;
+    position: fixed;
+    bottom: 0px;
+    margin: 0 1em 0 1em;
+}
+
+.iniciarsesion{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+}
+.aun{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    align-items: center;
+    color: #15c;
+    text-decoration-line: underline;
+    margin-top: 4em;
+}
+.mb-3{
+   text-align: center;
+ }
+
+.mensaje{
+    margin: 1em;
+}
+ 
+ .lds-facebook {
+    display: none;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #DC001B;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+  
+  @keyframes lds-spinner {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+@media screen and (max-width:481px){
+    }

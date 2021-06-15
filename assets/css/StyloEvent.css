@@ -1,0 +1,364 @@
+*{
+    
+    margin: 0%;
+}
+
+        body{
+            margin: 0%;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        header {
+            background: #DC001B;
+            height: 5%!important;
+        }
+        .boton{
+            text-align: right;
+            margin-right: 8%;
+            
+        }
+        .logo{
+            text-align: center;
+            width: 100%;
+        }
+        .volver{
+            font-weight: normal;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border: none;
+            color: #DC001B;
+            background: rgb(255, 255, 255, 0.8);
+            border-radius: 5px;
+            height: 3vh;
+            width: 6vw;
+        }
+        .contenido-1{
+            display: flex;
+       flex-direction: column;
+
+     align-items: center;
+
+  text-align: center;
+ }
+.title{
+    font-family: Montserrat;
+    font-size: 2vw;
+    color: #000000;
+    margin-top: 8%;
+}
+
+.text-1{
+    font-size: 1vw;
+}
+.text-2{
+    margin-left: 0%;
+    font-size: 14px;
+    /* color: #000000;*/
+}
+#up{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: fit-content;
+    background-color:#DC001B;
+}
+.div{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 19px;
+    width: 39vw;
+    margin-bottom: 2%;
+  
+}
+#name{
+    font-size: 15px;
+    margin-left: 0;
+    height: 0%;
+}
+.descripcion{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 19px;
+}
+#descripcion{
+
+    font-size: 15px;
+    padding-bottom: 3%;
+}
+.details{
+    font-size: 19px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#details{
+    font-size: 15px;
+    height: 11vh;
+}
+#lugar{
+    font-size: 19px;
+    width: 32%;
+    margin-bottom: 4%;
+}
+
+.casilla-1{
+   
+    width: 1.6276041666666667vw;
+    height:  2.770083102493075vh;
+    
+}
+.text-c1{
+    font-size: 19px;
+}
+.text-c2{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #000000;
+    margin-top: -5.5%;
+    margin-left: 30%;
+}
+.online{
+    width: 1.6276041666666667vw;
+    height:  2.770083102493075vh;
+}
+.time2{
+    margin-left: 16%;
+    margin-top: -7%;
+}
+#online{
+    width: 82%;
+}
+.text-on{
+    font-family: Montserrat;
+    font-size: 23px;
+    color: #000000;
+}
+#fecha-hora{
+display: flex;
+justify-content: center;
+margin-left: -8%;
+}
+.f-h{
+    font-family: Montserrat;
+    font-size: 23px;
+    color: #000000;
+    margin-top: 10%;
+}
+.date{ 
+    height: 6vh;
+    margin-left: -43%;
+}
+.a{
+    font-family: Montserrat;
+    font-size: 23px;
+    color: #000000;
+    margin-left: 2%;
+    
+}
+.time{
+    
+    height: 6vh;
+    margin-left: 2%;
+}
+#img{
+    width: 34%;
+    background-color:#DC001B ;
+    margin-top: 3%;  
+}
+
+.div2{
+    width: 115%;
+}
+
+#footer{
+    
+    width: 72%;
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #000000;
+    margin-left: 23%;
+    margin-top: 2%;
+}
+.confirmar1{
+    margin-left: 100%;
+    margin-top: 3%;
+}
+.confirmar{
+    background-color: #DC001B;
+    border-radius: 5px;
+    border:none;
+    font-family: Montserrat ;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+@media only screen and (max-width: 481px) {
+    .container{
+        width: 100%;
+        margin: 0%;
+    }
+    .header{
+        width: 185%;
+    }
+    .boton{
+        margin-right: 3%;
+    }
+    .title{
+        font-size: 173%;
+        margin-left: 65%;
+
+        justify-content: center;
+    }
+
+    .text-1{
+        font-size: 19px;
+        margin-left: 34%;
+        width: 150vw;
+    }
+    #up{
+        margin-left: 65%;
+        font-size: 12px;
+    }
+    .name{
+        font-size: 19px;
+        /* margin-left: 35%; */
+        /* margin-bottom: 9%; */
+        width: 39vw;
+        height: 0vh;
+        margin: 0%;
+    }
+    #name{
+        font-size: 15px;
+        margin-left: 0;
+        /* margin-top: 1%; */
+
+        /* padding-bottom: 2%; */
+        height: 0%;
+    }
+    .descripcion{
+        margin: 0;
+        font-size: 19px;
+    }
+    #descripcion{
+
+        font-size: 15px;
+        /* margin-left: 35%; */
+        height: 8vh;
+        margin: 0%;
+
+    }
+    .details{
+        width: 31%;
+        font-size: 19px;
+        /* margin-top: 4%; */
+        /* margin-left: 35%; */
+        margin: 0%;
+    }
+    #details{
+
+        /* height: 19.822715vh; */
+        font-size: 15px;
+        /* margin-left: 35%; */
+        margin: 0;
+    }
+    #lugar{
+        font-size: 19px;
+        /* margin-left: 35%; */
+        width: 27%;
+    }
+    .online {
+        width: 2.627604vw;
+        }
+
+    .text-c1{
+        font-size: 17px;    
+        /* margin-left: 35%; */
+        /* margin-right: 19%; */
+        margin: 0;
+        width: 50%;
+    }
+    .casilla-1 {
+        width: 2.627604vw;      
+    }
+    .text-c2{
+        font-size: 15px;
+        /* margin-left: 81%; */
+        /* margin-top: -7%; */
+        width: 100vw;
+        margin: 0;
+    }
+    .text-on{
+        width: 22%;
+    }
+    #online{
+        width: 40vw;
+        height: 6vh;
+        /* margin-top: -3%; */
+        /* margin-left: 36%; */
+        margin: 0;
+    }
+    .f-h{
+        font-size: 19px;
+        /* margin-left: 35%; */
+        margin: 0;
+        width: 50%;
+    }
+    #fecha-hora{
+        margin-left: 47%; 
+        width: 77%;
+        /* margin-top: 2%; */
+    }
+    .date {
+        width: 36vw;
+        margin-left: -15%;
+        margin-top: 1%;
+    }
+    .a{
+        font-size: 17px;
+        margin-top: 2%;
+        /* width: 8vw; */
+        /* height: 1vh; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .time {
+        /* height: 7vh; */
+        /* width: 31vw; */
+        /* margin-left: 4%; */
+        /* margin: 0%; */
+        width: 36vw;
+        /* margin-left: -15%; */
+        margin-top: 1%;
+    }
+    .div2{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #img {
+        width: 41%;
+        /* margin-right: 10%; */
+        /* margin-left: 60%; */
+        /* margin-bottom: 5%; */
+        margin: 0;
+        /* text-align: center; */
+    }
+    .text-img{
+        width: 117%;
+    }
+    .confirmar1 {
+        /* margin-left: 100%; */
+        margin-top: 3%;
+    }
+    .confirmar{
+        font-size: 19px;
+    }
+    .time2{
+        width: 32%;
+        margin: 0%;
+    }
+    .asimismo{
+        display: none;
+    }
+ }
