@@ -74,7 +74,7 @@ header{
     z-index: 1;
 }
 .seccion1{
-    background-image:url(assets/css/images/foto_fondo_evento.png);
+    background-image:url(../images/foto_fondo_evento.png);
     height:  56em;
     background-repeat:no-repeat;
     background-size: 100%;
