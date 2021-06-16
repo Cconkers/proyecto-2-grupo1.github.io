@@ -38,6 +38,7 @@ margin-left:5%;
 }
 
 .texto{
+    resize: none;
     margin-left: 2%;
     font-size: 18px;
     width: 35%;
